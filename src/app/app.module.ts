@@ -7,7 +7,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 // Main Module
 import { MyApp } from './app.component';
-
+//import { InternationalPhoneModule } from 'ng4-intl-phone';
 //Modules
 import { HomePage } from '../pages/home/home';
 import { SliderPage } from '../pages/slider/slider';
@@ -15,11 +15,13 @@ import { SliderPage } from '../pages/slider/slider';
   declarations: [
     MyApp,
     HomePage,
-    SliderPage
+    SliderPage,
+
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+   // InternationalPhoneModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
