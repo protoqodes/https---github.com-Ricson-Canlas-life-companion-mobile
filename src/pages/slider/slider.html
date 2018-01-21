@@ -1,0 +1,46 @@
+
+
+<!-- <ion-header no-shadow>
+  <ion-navbar>
+    <button class="btn-green" (click)="signUp()">Get Started</button>
+    <button class="btn-green-out" (click)="signIn()">Sign In</button>
+  </ion-navbar>
+</ion-header> -->
+
+<ion-content no-bounce class="page-slider text-center">
+  <ion-slides #slider pager="true" (ionSlideNextStart)="onSlideNext($event)">
+    <ion-slide>
+      <img class="logo" src="" >
+
+      <img class="slider-img main-image" src="assets/imgs/slider-01.jpg" alt="">
+		
+      <span class="slide-nav next" outline (click)="slideNext()" tappable><i class="fa fa-angle-right"></i></span>
+    </ion-slide>
+
+    <ion-slide>
+
+      <img class="slider-img" src="" alt="">
+      <p class="subtitle">
+        image 2
+      </p>
+
+      <span class="slide-nav prev" outline (click)="slidePrev()" tappable><i class="fa fa-angle-left"></i></span>
+      <span class="slide-nav next" outline (click)="slideNext()" tappable><i class="fa fa-angle-right"></i></span>
+    </ion-slide>
+
+    <ion-slide>
+      <img class="logo" >
+      <img class="slider-img"  alt="">
+      <p class="subtitle">
+        image 3
+      </p>
+
+      <span class="slide-nav prev" outline (click)="slidePrev()" tappable><i class="fa fa-angle-left"></i></span>
+      <span class="slide-nav next" outline (click)="slideNext()" tappable><i class="fa fa-angle-right"></i></span>
+    </ion-slide>
+  </ion-slides>
+
+  <button class="btn-slider btn-green" (click)="signUp()" tappable>Get Started</button>
+  <button class="btn-slider btn-green-out" (click)="signIn()" tappable>Sign In</button>
+</ion-content>
+
