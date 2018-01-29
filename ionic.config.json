@@ -1,6 +1,8 @@
 {
-  "name": "push-notif-mobile",
+  "name": "lc-ionic",
   "app_id": "",
   "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {
+    "cordova": {}
+  }
 }

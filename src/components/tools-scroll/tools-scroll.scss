@@ -1,0 +1,47 @@
+tools-scroll {
+    .tools-wrapper{
+        padding-bottom:0px !important;
+        ion-label{
+            margin: 10px 0 0px !important;
+        }
+        .tool-scroll{   
+                 
+            .scroll-content{
+                padding:8px 0 !important;
+                ion-card {
+                    position: relative;
+                    text-align: center;
+                    width: 140px !important;
+                    height: 135px !important;
+                    border-radius: 8px !important;
+                    display: inline-block !important;
+                    margin-left:0px !important;
+                    margin-right: 5px !important;
+                    margin-bottom: 0px !important;
+                  }
+                  
+                  .card-title {
+                    position: absolute;
+                    top: 30%;
+                    font-size: 2.0em;
+                    width: 100%;
+                    font-weight: bold;
+                    color: #fff;
+                  }
+                
+                  .card-subtitle {
+                    font-size: 1.0em;
+                    position: absolute;
+                    top: 55%;
+                    width: 100%;
+                    color: #fff;
+                  }
+            }
+        }
+        ion-scroll[scrollX].tool-scroll{
+            white-space: nowrap;
+            height: 170px;
+            overflow: hidden;
+        }
+    }
+}

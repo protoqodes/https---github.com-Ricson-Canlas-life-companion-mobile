@@ -1,0 +1,61 @@
+<ion-header class="top-bar"></ion-header>
+
+
+<ion-content>
+  
+    <ion-row class="bdr-btm pad-hr-10">
+      <ion-col col-9>
+        <h2 class="fw-n text-lg">Choose your interests </h2>
+      </ion-col>
+      <ion-col col-3>
+        <h2 class="orange text-right fw-n text-lg" (click)="goToHomePage()">Skip</h2>
+      </ion-col>
+    </ion-row>
+    <ion-searchbar class="round" (ionInput)="getItems($event)"></ion-searchbar>
+    <ion-card class="no-box-shadow">
+      <ion-card-header class="black pad-hr-0">
+        <strong>HEALTH</strong><br/><br/>
+        <button ion-button class="plainwhite text-x-sm" [ngClass]="selectedAll ? 'active' : ''" round (click)="checkAll()">
+          <span *ngIf="!selectedAll">
+              Select All
+          </span>
+          <span *ngIf="selectedAll">
+              Clear All
+          </span>
+        </button>
+      </ion-card-header>
+      <ion-card-content>
+          <ion-list class="checkbox-buttons">
+            <ion-item>
+              <ion-label>Fitness</ion-label>
+              <ion-checkbox [(ngModel)]="fitness" [checked]="selectedAll"></ion-checkbox>
+            </ion-item>
+            <ion-item>
+              <ion-label>Tag</ion-label>
+              <ion-checkbox [(ngModel)]="tag" [checked]="selectedAll"></ion-checkbox>
+            </ion-item>
+            <ion-item>
+              <ion-label>Link</ion-label>
+              <ion-checkbox [(ngModel)]="link" [checked]="selectedAll"></ion-checkbox>
+            </ion-item>
+            <ion-item>
+                <ion-label>Pink</ion-label>
+                <ion-checkbox [(ngModel)]="pink" [checked]="selectedAll"></ion-checkbox>
+              </ion-item>
+              <ion-item>
+                <ion-label>Sausage</ion-label>
+                <ion-checkbox [(ngModel)]="sausage" [checked]="selectedAll"></ion-checkbox>
+              </ion-item>
+              <ion-item>
+                <ion-label>Mushrooms</ion-label>
+                <ion-checkbox [(ngModel)]="mushrooms" [checked]="selectedAll"></ion-checkbox>
+              </ion-item>
+          </ion-list>
+      </ion-card-content>
+    </ion-card>
+    <ion-footer>
+      <ion-toolbar>
+          <button ion-button round full class="orange-gradient" (click)="goToHomePage()">Save</button>
+      </ion-toolbar>
+    </ion-footer>
+</ion-content>

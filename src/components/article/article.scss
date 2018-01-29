@@ -1,0 +1,65 @@
+article {
+    .article-design{
+        margin:15px auto 5px !important;
+        border-radius: 8px;
+        text-align: left;
+        background: transparent !important;
+        box-shadow: none !important;
+        .img-responsive{
+            display: block;
+            width:100% !important;
+            max-height: 300px !important;
+            border-top-right-radius: 8px;
+            border-top-left-radius: 8px;
+        }
+        .card-heading{
+            color: #464646 !important;
+            font-size: 18px !important;
+            font-weight: 600 !important;
+        }
+        .card-sub-heading{
+            color: #8b8b8b !important;
+            font-size: 11px !important;
+            font-weight:300;
+            margin: -2px 0 8px !important;
+            display: block;
+        }
+        .card-content{
+            color:#8b8b8b !important;
+            font-size:13px !important;
+            width: 100%;
+            font-weight: 400;
+            margin: 0 0 1em 0;
+            overflow: hidden;
+            background: #fff;
+            border-bottom-right-radius: 8px;
+            border-bottom-left-radius: 8px;
+            .hash-tag {
+                background: #f26722 !important;
+                font-size: 11px !important;
+                color: #fff !important;
+                padding: 4px !important;
+                letter-spacing: 1.2px;
+                font-weight: 100 !important;
+            }
+            .line-clamp{
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical; 
+            }
+            .card-tag{
+                margin-top: 10px !important;
+                margin-bottom: -15px !important;
+                .item-inner{
+                    padding:0px !important;
+                    .item-button {
+                        padding: 0;
+                        height: 24px;
+                        font-size: 12px !important;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}

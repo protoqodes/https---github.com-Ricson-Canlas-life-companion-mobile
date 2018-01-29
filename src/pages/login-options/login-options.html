@@ -1,0 +1,251 @@
+<ion-content>
+    <div class="logo-bg pos-rel" *ngIf="!profileDetails">
+       <ion-card padding>
+          <!-- Login Option Screen -->
+          <ion-grid *ngIf="loginOptionShown && !loginSuccessScreen && !loginwithLCID">
+             <h1 padding class="orange text-center text-lg">Enter mobile number to continue</h1>
+             <ion-row>
+
+                <form [formGroup]="myForm" novalidate>
+                  <ion-col col-4>
+                     <int-phone-prefix defaultCountry="ng" class="fl-style" formControlName="myPhone" [(ngModel)]="countryCode"></int-phone-prefix>
+                  </ion-col>
+                </form>
+                  <ion-col col-8>
+                     <ion-input [(ngModel)]="phoneNumber" type="number" class="round-input" (keydown)="onKeyDownPhoneNumber($event)"></ion-input>
+                     {{errMessage.phoneNumber}}
+                  </ion-col>
+             </ion-row>
+             <ion-row>
+                <ion-col col-12>
+                   <button ion-button full class="orange-gradient fw-l" round (click)="goToOTPScreen('true')">CONTINUE</button>
+                </ion-col>
+                <ion-col col-12>
+                   <p class="text-sm text-center">or continue with</p>
+                </ion-col>
+                <ion-col col-6>
+                   <button ion-button block color="facebook" class="fw-l" round>Facebook</button>
+                </ion-col>
+                <ion-col col-6>
+                   <button ion-button block color="twitter" class="fw-l" round>Twitter</button>
+                </ion-col>
+                <ion-col col-12>
+                   <button ion-button full clear color="scnd-hlt" (click)="goToLCIDLogin()">Login with LCID</button>
+                </ion-col>
+             </ion-row>
+          </ion-grid>
+          <!-- OTP Verification Screen -->
+          <ion-grid *ngIf="otpVerificationScreen && !loginOptionShown && !loginSuccessScreen && !loginwithLCID && !forgotPasswordScreen">
+             <ion-row>
+                <p class="text-lg grey">Waiting to automatically detect an SMS sent to {{countryCode}} {{phoneNumber}}</p>
+                <h2 class="orange text-lg" (click)="goToLoginOptionsScreen()">Wrong number?</h2>
+             </ion-row>
+             <div padding>
+                <ion-row padding class="pad-btm-0">
+                   <ion-col col-2>
+                      <ion-item>
+                         <ion-input #input1 type="tel" maxlength="1" placeholder="0" (keyup)="next($event,input2,input1)"></ion-input>
+                      </ion-item>
+                   </ion-col>
+                   <ion-col col-2>
+                      <ion-item>
+                         <ion-input #input2 type="tel" maxlength="1" placeholder="0" (keyup)="next($event,input3,input1)"></ion-input>
+                      </ion-item>
+                   </ion-col>
+                   <ion-col col-2>
+                      <ion-item>
+                         <ion-input #input3 type="tel" maxlength="1" placeholder="0" (keyup)="next($event,input4,input2)"></ion-input>
+                      </ion-item>
+                   </ion-col>
+                   <ion-col col-2>
+                      <ion-item>
+                         <ion-input #input4 type="tel" maxlength="1" placeholder="0" (keyup)="next($event,input5,input3)"></ion-input>
+                      </ion-item>
+                   </ion-col>
+                   <ion-col col-2>
+                      <ion-item>
+                         <ion-input #input5 type="tel" maxlength="1" placeholder="0" (keyup)="next($event,input6,input4)"></ion-input>
+                      </ion-item>
+                   </ion-col>
+                   <ion-col col-2>
+                      <ion-item>
+                         <ion-input #input6 type="tel" maxlength="1" placeholder="0" (keyup)="next($event,undefined,input5)"></ion-input>
+                      </ion-item>
+                   </ion-col>
+                </ion-row>
+                <ion-row>
+                   <ion-col col-12>
+                      <p class="text-sm text-center grey">Enter 6-digit code</p>
+                   </ion-col>
+                </ion-row>
+             </div>
+             <br><br>
+             <ion-row class="bdr-btm pad-vr-5">
+                <ion-col col-1>
+                   <img src="../assets/imgs/resend-sms.png" alt="sms icon">
+                </ion-col>
+                <ion-col col-9 class="grey">
+                   Resend SMS
+                </ion-col>
+                <ion-col col-2 class="text-right">
+                   1:20
+                </ion-col>
+             </ion-row>
+             <ion-row class="pad-vr-5">
+                <ion-col col-1>
+                   <img src="../assets/imgs/call.png" alt="call icon">
+                </ion-col>
+                <ion-col col-9 class="grey">
+                   Call me
+                </ion-col>
+                <ion-col col-2 class="text-right black">
+                   1:20
+                </ion-col>
+             </ion-row>
+          </ion-grid>
+          <!-- Login Success Screen -->
+          <ion-grid *ngIf="loginSuccessScreen && !loginwithLCID">
+             <ion-row>
+                <ion-col col-12>
+                   <img src="../assets/imgs/verified.png" alt="verified icon" class="center-sm-img">
+                </ion-col>
+                <ion-col col-12>
+                   <p class="text-lg text-center grey">Mobile Number verified</p>
+                   <p class="text-lg text-center grey">Your Unique LCID is</p>
+                   <br/>
+                   <h1 class="text-center lightblue">OLUOKU000001</h1>
+                   <br/>
+                   <button ion-button full class="orange-gradient fw-l" round (click)="goToInterestPage()">NEXT</button>
+                </ion-col>
+             </ion-row>
+          </ion-grid>
+          <!-- Login with LCID -->
+          <ion-grid *ngIf="loginwithLCID && !forgotPasswordScreen">
+             <ion-row padding>
+                <h1 class="text-center orange text-lg block">Login with LCID</h1>
+                <br/><br/>
+                <ion-item class="round">
+                   <ion-input placeholder="LCID" type="text"></ion-input>
+                   <button ion-button clear class="eye-off" item-end style="margin: 2px 8px 9px 0 !important;position:relative;z-index:9999;height: 40px;width: 40px;">
+                      <ion-icon name="person" style="font-size:26px;"></ion-icon>
+                   </button>
+                </ion-item>
+                <ion-item class="round">
+                   <ion-input placeholder="Password" type="{{type}}"></ion-input>
+                   <button ion-button clear item-end class="{{icon}}" (click)='showHide()' style="position:relative;margin: 2px 8px 9px 0 !important;z-index:9999;height: 30px;width: 30px;">
+                      <ion-icon name="{{icon}}" style="font-size:26px;"></ion-icon>
+                   </button>
+                </ion-item>
+             </ion-row>
+             <ion-row>
+                <ion-col col-12>
+                   <button ion-button full class="orange-gradient fw-l" round (click)="goToHomeScreen()">CONTINUE</button>
+                </ion-col>
+                <ion-col col-12>
+                   <button ion-button full color="scnd-hlt" class="fw-l" (click)="goToForgotPasswordScreen()" clear>Forgot Password?</button>
+                </ion-col>
+             </ion-row>
+          </ion-grid>
+          <!-- Forgot Password Screen -->
+          <ion-grid *ngIf="forgotPasswordScreen">
+             <ion-row padding>
+                <h1 class="text-center orange text-lg block">Forgot Password</h1>
+                <br/><br/>
+                <p class="text-center block grey">Please Enter Your Mobile Number</p>
+             </ion-row>
+             <ion-row>
+                <ion-col col-4>
+                   <int-phone-prefix defaultCountry="ng" class="fl-style" [(ngModel)]="phoneNumber" readonly></int-phone-prefix>
+                </ion-col>
+                <ion-col col-8>
+                   <ion-input type="tel" class="round-input" maxlength="10"></ion-input>
+                </ion-col>
+             </ion-row>
+             <br/><br/>
+             <ion-row>
+                <ion-col col-12>
+                   <button ion-button full class="orange-gradient fw-l" round (click)="goToOTPScreen()">SEND OTP</button>
+                </ion-col>
+             </ion-row>
+          </ion-grid>
+
+          <!-- Change Password -->
+          <ion-grid *ngIf="changePasswordScreen">
+              <ion-row padding>
+                 <h1 class="text-center orange text-lg block">Set a new password</h1>
+                 <br/>
+              </ion-row>
+              <ion-row>
+                  <ion-item class="round">
+                      <ion-input placeholder="Enter new password" type="{{type}}"></ion-input>
+                      <button ion-button clear item-end class="{{icon}}" (click)='showHide()' style="position:relative;margin: 2px 8px 9px 0 !important;z-index:9999;height: 30px;width: 30px;">
+                         <ion-icon name="{{icon}}" style="font-size:26px;"></ion-icon>
+                      </button>
+                  </ion-item>
+                 
+              </ion-row>
+              <br/>
+              <ion-row>
+                 <ion-col col-12>
+                    <button ion-button full class="orange-gradient fw-l" round (click)="goToPasswordSuccessScreen()">CHANGE PASSWORD</button>
+                 </ion-col>
+              </ion-row>
+          </ion-grid>
+
+          <!-- Password Change Successful -->
+          <ion-grid *ngIf="passwordChangeSuccessful && !loginSuccessScreen">
+              <ion-row>
+                 <ion-col col-12>
+                    <img src="../assets/imgs/verified.png" alt="verified icon" class="center-sm-img">
+                 </ion-col>
+                 <ion-col col-12>
+                    <p class="text-lg text-center grey">Your password has been changed</p>
+                    <br/>
+                    <br/>
+                    <button ion-button full class="orange-gradient fw-l" round (click)="goToLCIDLogin()">LOGIN TO CONTINUE</button>
+                 </ion-col>
+              </ion-row>
+          </ion-grid>
+       </ion-card>
+    </div>
+    
+    <!-- Profile Page -->
+    <div class="profile" *ngIf="profileDetails">
+       <ion-row class="upload-image orange-gradient" (click)="uploadImage()">
+          <span></span>
+       </ion-row>
+       <div padding>
+          <h1 class="text-lg  grey fw-n">Please fill the profile details</h1>
+                {{errMessage.firstName}}
+                {{errMessage.lastName}}
+                {{errMessage.gender}}
+                {{errMessage.localDate}}           
+          <ion-list no-lines>
+             <ion-item class="bdr-btm">
+                <ion-label floating>First Name</ion-label>
+                <ion-input type="text" [(ngModel)]="firstName"></ion-input>
+             </ion-item>
+             <ion-item class="bdr-btm">
+                <ion-label floating>Last Name</ion-label>
+                <ion-input type="text" [(ngModel)]="lastName"></ion-input>
+             </ion-item>
+             <br/>
+             <ion-item class="bdr-btm">
+                <ion-label ion-datepicker  placeholder="Date of Birth" [(value)]="localDate" clear class="ScheduleDate">
+                Date of Birth: <span class="fw-n black align-right">{{localDate | date}}</span> 
+                </ion-label>
+             </ion-item>
+             <br/>
+             <ion-item class="bdr-btm">             
+                <ion-label>Gender</ion-label>
+                <ion-select interface="popover" [(ngModel)]="gender">
+                    <ion-option value="male">Male</ion-option>
+                    <ion-option value="female">Female</ion-option>
+                </ion-select>
+             </ion-item>
+          </ion-list>
+          <br/>
+          <button ion-button full class="orange-gradient fw-l" round (click)="goToSuccessScreen()">CONTINUE</button>
+       </div>
+    </div>
+ </ion-content>

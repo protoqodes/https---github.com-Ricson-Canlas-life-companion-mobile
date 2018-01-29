@@ -1,0 +1,30 @@
+profile-completion-card {
+    .prompt-profile-completion{
+        h2 {
+            padding: 0 16px !important;
+            color: #fff !important;
+            font-weight: 400 !important;
+            font-size: 17px !important;
+            margin: 5px 0 10px;
+        }
+        .card-md .item-md.item-block .item-inner {
+            border-bottom: 1px solid #dedede !important;
+        }
+        .item-input-has-focus .label-md[stacked], .input-has-focus .label-md[stacked], .item-input-has-focus .label-md[floating], .input-has-focus .label-md[floating]{
+            color: #999 !important;
+        }
+        ion-card{
+            border-radius: 8px !important;
+            ion-item{
+                padding:0px !important;
+                input, ion-select{
+                    color: color($colors, orangecolor, base);
+                }
+            }
+        }
+        .label-md[stacked] {
+            font-size: inherit !important;
+        }
+        
+    }
+}

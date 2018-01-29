@@ -1,0 +1,46 @@
+page-chooseintereset {
+    ion-searchbar{
+        padding:20px 8px !important;
+        .searchbar-input{
+            border-radius: 64px !important;
+        }        
+    }
+    .checkbox-buttons{
+        .item.item-block{
+            display: inline-block;
+            border: 1px solid #dfdfdf;
+            width: auto !important;
+            min-width: 80px !important;
+            max-width: 130px !important;
+            height: auto!important;
+            min-height: 40px !important;
+            max-height: 40px !important;
+            border-radius: 64px;
+            text-align: center !important;
+            font-size: 12px !important;
+            text-transform: uppercase;
+            .checkbox-icon{
+                display:none;
+            }            
+        }
+        .item-checkbox-checked{
+            background: -webkit-gradient(linear, left top, right top, from(#E51D35), to(#F26722)) !important;
+            background: linear-gradient(to right, #E51D35, #F26722) !important;
+            color:#fff !important;
+        }
+        .checkbox-md {
+            position: static;
+            display: block;
+            margin: 0 !important;
+        }
+        
+    }
+    .active{
+        background:#018abe !important;
+        border:1px solid #018abe !important;
+        color:#fff;
+        text-transform: uppercase;
+        font-weight: normal;
+    }
+    
+}

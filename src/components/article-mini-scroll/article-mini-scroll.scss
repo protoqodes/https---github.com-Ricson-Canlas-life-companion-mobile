@@ -1,0 +1,83 @@
+article-mini-scroll {
+    ion-scroll[scrollX].article-mini-scroll {
+        white-space: nowrap;
+        height: 180px;
+        width:100%;
+        overflow: hidden;
+        ion-card{
+            width:180px;
+            display:inline-block !important;
+        }
+    }
+    .article-carsouel{
+        border-radius: 8px;
+        text-align: left;
+        margin-left:10px !important;
+        background: transparent !important;
+        box-shadow: none !important;
+        .img-responsive{
+            display: block;
+            width:100% !important;
+            max-height: 100px !important;
+            border-top-right-radius: 8px;
+            border-top-left-radius: 8px;
+        }
+        .card-content{
+            background: #fff;
+            border-bottom-right-radius: 8px;
+            border-bottom-left-radius: 8px;
+            padding:8px !important;
+        }
+        .card-heading{
+            color: #464646 !important;
+            font-size: 14px !important;
+            font-weight: 600 !important;
+            text-align: left !important;
+            padding: 0px !important;
+            max-width: 120px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .card-sub-heading{
+            text-align:left !important;
+            font-size:10px !important;
+        }
+        .hash-tag {
+            background: #f26722 !important;
+            font-size: 11px !important;
+            color: #fff !important;
+            padding: 4px !important;
+            letter-spacing: 1.2px;
+            font-weight: 100 !important;
+        }
+        .line-clamp{
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical; 
+        }
+        .card-tag{
+            margin-top: -8px !important;
+            margin-bottom: -10px !important;
+            .item-inner{
+                padding:0px !important;
+                .item-button {
+                    padding: 0;
+                    height: 24px;
+                    font-size: 12px !important;
+                    margin: 0;
+                }
+            }
+        }
+        ion-label{
+            margin:0px !important;
+        }
+        ion-item{
+            background:transparent !important;
+            .input-wrapper{
+                line-height: 10px !important;
+            }
+        }
+        
+       
+    }
+}

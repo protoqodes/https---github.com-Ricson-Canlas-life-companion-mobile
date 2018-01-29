@@ -1,16 +1,245 @@
-// http://ionicframework.com/docs/theming/
+h1, h2, h3, h4, h5, h6, p {
+    line-height: 20px;
+    display: block;
+}
+ion-app.md [padding] {
+    padding: 10px !important;
+}
+.item-md.item-block .item-inner{
+    padding-right:0px !important;
+}
+.orange-gradient{
+    background: -webkit-gradient(linear, left top, right top, from(#E51D35), to(#F26722));
+    background: linear-gradient(to right, #E51D35, #F26722);
+}
+
+.pad-0{
+    padding:0px !important;
+}
+.pad-5{
+    padding: 5px !important;
+}
+.pad-hr-0{
+    padding: 15px 5px !important;
+}
+.pad-vr-5{
+    padding:5px 0 !important;
+}
+.mar-vr-5{
+    margin: 5px 0 !important;
+}
+
+.ln-20{
+    line-height: 20px;
+}
+
+.pad-hr-10{
+    padding: 0px 10px !important;
+}
+.pad-btm-0{
+    padding-bottom:0px !important;
+}
+.pos-rel{
+    position: relative;
+}
+.pos-abs{
+    position: absolute;
+}
+.orange{
+    color:#f26722 !important;
+}
+.lightblue{
+    color:#018abe !important;
+}
+.orange-bg{
+    background:#f26722 !important;
+}
+.lightblue-bg{
+    background: #018abe !important;
+}
+.white{
+    color:#fff !important;
+}
+.grey{
+    color:#9494af !important;
+}
+.black{
+    color:#464646 !important;
+}
+.bdr-btm{
+    border-bottom:1px solid #dfdfdf !important;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-big{
+    font-size: 22px !important;
+    margin:10px auto !important;
+    line-height: 10px !important;
+}
+
+.text-x-lg{
+    font-size:18px !important;
+}
+.text-lg{
+    font-size: 17px !important;
+}
+.text-sm{
+    font-size:15px !important;
+}
+.text-x-sm{
+    font-size: 12px !important;
+}
+.small{
+    font-size: 10px !important;
+}
+.fw-l{
+    font-weight: 300 !important;
+}
+.fw-m{
+    font-weight: 600 !important;
+}
+.fw-n{
+    font-weight: normal !important;
+}
+.caps{
+    text-transform: uppercase;
+}
+.block{
+    width: 100%;
+    display: block;
+    margin:0 auto;
+}
+.center-block{
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+}
+.center-sm-img{
+    width: 50px;
+    height:50px;
+    margin:0 auto;
+}
+.top-bar{
+    height:20px;
+    background:#F26722;
+}
+.plainwhite{
+    background: #fff;
+    border:1px solid #018abe;
+    color:#000;
+    text-transform: uppercase;
+}
+.no-box-shadow{
+    box-shadow: none !important;
+}
+/*Date Picker Styles*/
+ionic2-datepicker .datepicker-wrapper .datepicker-header {
+    color: white;
+    background-color: #F26722 !important;
+    display: flex;
+    flex-flow: column;
+    height: 35%;
+}
+ionic2-datepicker .datepicker-calendar .button{
+    background:transparent !important;
+    color:#000 !important;
+}
+ionic2-datepicker .datepicker-wrapper .datepicker-header .weekday-header {
+    padding: 8px 10px;
+    background-color: #E51D35 !important;
+}
+ionic2-datepicker .datepicker-calendar .calendar-wrapper .datepicker-temp {
+    background-color: #e96429 !important;
+    color: #fff !important;
+}
+ionic2-datepicker .datepicker-calendar .calendar-wrapper .datepicker-temp {
+    background-color: #e96429 !important;
+    color: #fff !important;
+    border-radius: 0px !important;
+}
+
+ionic2-datepicker .datepicker-footer button:first-child{
+    background:transparent !important;
+    color:grey !important;
+}
+ionic2-datepicker .datepicker-footer button:last-child{
+    background:transparent !important;
+    color:#e96429 !important;
+}
+.modal-wrapper {
+    z-index: 10;
+    height: 500px;
+    contain: strict;
+    width: 280px;
+    margin: 0 auto;
+    margin-top: 20% !important;
+}
+ion-modal {
+    left: 0;
+    top: 0;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    contain: strict;
+    opacity: .95;
+    background: #000;
+}
+/* Hide ion-content scrollbar */
+::-webkit-scrollbar{
+    display:none;
+}
 
 
-// App Global Sass
-// --------------------------------------------------
-// Put style rules here that you want to apply globally. These
-// styles are for the entire app and not just one component.
-// Additionally, this file can be also used as an entry point
-// to import other Sass files to be included in the output CSS.
-//
-// Shared Sass variables, which can be used to adjust Ionic's
-// default Sass variables, belong in "theme/variables.scss".
-//
-// To declare rules for a specific mode, create a child rule
-// for the .md, .ios, or .wp mode classes. The mode class is
-// automatically applied to the <body> element in the app.
+
+/*Image Definitions*/
+.landscape-responsive-image{
+    width:100%;
+    height: 250px;
+}
+.potrait-responsive-image{
+    width:100%;
+    height:400px;
+    margin:0 auto;
+}
+/*Article Card Standard Styles*/
+.article-heading{
+    font-size:23px !important;
+    line-height: 30px !important;
+    padding:0px;
+}
+
+.article-author, .article-time, .article-para-heading, .article-para, .article-img-src{
+    line-height: 20px !important;
+    margin:5px 0 !important;
+}
+.article-author{
+    font-weight: 100;
+    font-size: 10px !important;
+}
+.article-time{
+    font-size: 12px !important;
+    font-weight: normal;
+}
+.article-para-heading{
+    font-weight: 400 !important;
+    margin:10px 0 !important;
+    font-size: 14px !important;
+}
+.article-para{
+    font-size: 13px !important;
+}
+.article-img-src{
+    font-size:11px !important;
+    max-width: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}

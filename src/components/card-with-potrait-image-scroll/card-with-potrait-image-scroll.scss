@@ -1,0 +1,12 @@
+card-with-potrait-image-scroll {
+    ion-scroll[scrollX].article-potrait-scroll {
+        white-space: nowrap;
+        height:400px;
+        width:100%;
+        overflow: hidden;
+        ion-card{
+            width:200px;
+            display:inline-block !important;
+        }
+    }
+}

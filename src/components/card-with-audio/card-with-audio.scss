@@ -1,0 +1,35 @@
+card-with-audio {
+    audio-track-progress-bar time:first-child span {
+        font-size: 12px;
+        bottom: 35px;
+        position: absolute !important;
+        color: #000;
+        left: 5px;
+    }
+    audio-track-progress-bar time:last-child span {
+        font-size: 12px;
+        bottom: 35px;
+        position: absolute !important;
+        color: #000;
+        right: 5px;
+    }
+    audio-track-progress-bar {
+        height: 35px;
+        padding: 0px;
+        width: 100%;
+        input[type=range] {
+            -webkit-appearance: none;
+            width: 100%;
+            margin: 0;
+        }
+    }
+    audio-track-progress-bar input[type=range] {
+        -webkit-appearance: none;
+        width: 100%;
+        margin: 0;
+        position: absolute;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+        // background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E51D35), color-stop(100%,#F26722));
+    }
+}

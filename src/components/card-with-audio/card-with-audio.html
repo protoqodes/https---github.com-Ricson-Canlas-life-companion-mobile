@@ -1,0 +1,50 @@
+<ion-card color="dark" class="no-box-shadow">    
+        <ion-card-content>
+          <ion-card-title class="article-heading">
+              8 Steps To An Organized
+              Financial Life
+            </ion-card-title>
+            <p class="article-author">By Author Name | Updated November 6, 2017 — 1:46 PM</p>
+            <p class="article-time">10 min read</p>
+            <h2 class="article-para-heading">1. Pull Out Your Budget at Least Once Per Month</h2>
+            <p class="article-para">Your bills could change on a monthly basis.
+                Revise your budget as bills come in and adjust
+                other expenses to make up for it, so you don't
+                accidentally overdraw your bank account. For
+                instance, some months and seasons bring
+                higher electrical bills than others. Let's say
+                your electric bill is a $100 more in June than it
+                was in May.</p>
+                <p class="article-para">Your bills could change on a monthly basis.
+                    Revise your budget as bills come in and adjust
+                    other expenses to make up for it, so you don't
+                    accidentally overdraw your bank account. For
+                    instance, some months and seasons bring
+                    higher electrical bills than others. Let's say
+                    your electric bill is a $100 more in June than it
+                    was in May.</p>
+        </ion-card-content>
+        <ion-card style="border-radius:8px;" class="pos-rel" color="orangecolor">
+                <img src="assets/imgs/audio-banner.png"/>
+                <ion-card-content class="pad-0">
+                   
+                    <audio-track #audio *ngFor="let track of myTracks"  [track]="track" (onFinish)="onTrackFinished($event)">
+                          <ion-item>  
+                              <ion-thumbnail item-right>
+                                  <audio-track-play dark [audioTrack]="audio"><ion-spinner></ion-spinner></audio-track-play>  
+                              </ion-thumbnail>
+                              <div item-content style="width:100%">
+                                  <p><strong>{{audio.title}}</strong></p>
+                                  <p><em>{{audio.artist}}</em></p>
+                              </div>
+                              
+                          </ion-item> 
+                          
+                          <audio-track-progress-bar dark duration progress [audioTrack]="audio"></audio-track-progress-bar>
+                      </audio-track>
+                </ion-card-content>
+              </ion-card>
+    </ion-card>
+
+
+

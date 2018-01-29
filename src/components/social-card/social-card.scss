@@ -1,0 +1,38 @@
+social-card {
+    .social-card{
+        margin:15px auto 0 !important;
+        border-radius: 8px;
+        text-align: left;
+        box-shadow: none !important;
+        .img-responsive{
+            display: block;
+            width:100% !important;
+            max-height: 350px !important;
+            border-top-right-radius: 8px;
+            border-top-left-radius: 8px;
+        }
+        ion-card-content{
+            padding:13px 0 !important;
+            ion-card-title{
+                color:#464646 !important;
+                font-weight: 600 !important;
+                font-size:15px !important;
+            }
+            p{
+                font-size:12px !important;
+                font-weight: 400 !important;
+                color:#8b8b8b !important;
+            }
+            .grey-hash-tag{
+                background: #8b8b8b !important;
+                font-size: 11px !important;
+                color: #fff !important;
+                padding: 4px !important;
+                letter-spacing: 1.2px;
+                display: inline-block !important;
+                margin-top:5px !important;
+                font-weight: 100 !important;
+            }
+        }
+    }
+}

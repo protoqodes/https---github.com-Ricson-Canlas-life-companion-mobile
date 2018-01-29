@@ -1,15 +1,44 @@
-<ion-content padding>
-  <img src="assets/imgs/main-logo.png">
-  <p>Enter mobile number to continue</p>
-  <form action="">
-  	<div>
-  		<input placeholder="Country Code" type="number"> <input placeholder="Number" type="number">
-  	</div>
-  <div>
-  	<button ion-button>Continue</button>
-  </div>
-  </form>
-  <p>or continue with</p>
-  <button ion-button>Facebook</button>
-  <button ion-button>Twitter</button>
+<ion-header>
+        <div class="orange-bg" style="height:20px;"></div>
+        <ion-toolbar color="dark" no-border class="scrollable-segments">
+                <ion-row>
+                <ion-col col-2 class="pad-0">
+                        <button ion-button menuToggle style="margin-top:3px !important;">
+                        <ion-icon name="menu"></ion-icon>
+                        </button>
+                </ion-col>
+                <ion-col col-10 class="pad-0">
+                        <ion-segment [(ngModel)]="topics">
+                        <ion-segment-button value="topic1">
+                        You
+                        </ion-segment-button>
+                        <ion-segment-button value="topic2">
+                        Financial Literacy
+                        </ion-segment-button>
+                        <ion-segment-button value="topic3">
+                        Healthy Reads
+                        </ion-segment-button>
+                        <ion-segment-button value="topic4">
+                        Fitness
+                        </ion-segment-button>
+                        </ion-segment>
+                </ion-col>
+                </ion-row>
+        </ion-toolbar>
+</ion-header>
+<ion-content>
+        <div [ngSwitch]="topics">
+                <ion-list *ngSwitchCase="'topic1'">
+                Page 1
+                </ion-list>
+                <ion-list *ngSwitchCase="'topic2'">
+                Page 2            
+                </ion-list>
+                <ion-list *ngSwitchCase="'topic3'">
+                Page 3
+                </ion-list>
+                <ion-list *ngSwitchCase="'topic4'">
+                Page 4          
+                </ion-list>
+        </div>
 </ion-content>
