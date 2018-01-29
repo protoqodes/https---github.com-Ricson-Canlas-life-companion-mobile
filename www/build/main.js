@@ -1,6 +1,6 @@
 webpackJsonp([4],{
 
-/***/ 201:
+/***/ 200:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -34,7 +34,7 @@ var ExpensePage = (function () {
     };
     ExpensePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'page-expense',template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\pages\expense\expense.html"*/'<!--\n\n  Generated template for the ExpensePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>expense</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\pages\expense\expense.html"*/,
+            selector: 'page-expense',template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\pages\expense\expense.html"*/'<!--\n\n  Generated template for the ExpensePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>expense</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\pages\expense\expense.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], ExpensePage);
@@ -45,7 +45,7 @@ var ExpensePage = (function () {
 
 /***/ }),
 
-/***/ 202:
+/***/ 201:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -79,7 +79,7 @@ var FitnessPage = (function () {
     };
     FitnessPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'page-fitness',template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\pages\fitness\fitness.html"*/'<!--\n\n  Generated template for the FitnessPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>fitness</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\pages\fitness\fitness.html"*/,
+            selector: 'page-fitness',template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\pages\fitness\fitness.html"*/'<!--\n\n  Generated template for the FitnessPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>fitness</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\pages\fitness\fitness.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], FitnessPage);
@@ -90,73 +90,20 @@ var FitnessPage = (function () {
 
 /***/ }),
 
-/***/ 203:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChooseinteresetPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(33);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(94);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * Generated class for the ChooseinteresetPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var ChooseinteresetPage = (function () {
-    function ChooseinteresetPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.selectedAll = false;
-    }
-    ChooseinteresetPage.prototype.goToHomePage = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */]);
-    };
-    ChooseinteresetPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ChooseinteresetPage');
-    };
-    ChooseinteresetPage.prototype.checkAll = function () {
-        this.selectedAll = !this.selectedAll;
-    };
-    ChooseinteresetPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'page-chooseintereset',template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\pages\chooseintereset\chooseintereset.html"*/'<ion-header class="top-bar"></ion-header>\n\n\n\n\n\n<ion-content>\n\n  \n\n    <ion-row class="bdr-btm pad-hr-10">\n\n      <ion-col col-9>\n\n        <h2 class="fw-n text-lg">Choose your interests </h2>\n\n      </ion-col>\n\n      <ion-col col-3>\n\n        <h2 class="orange text-right fw-n text-lg" (click)="goToHomePage()">Skip</h2>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-searchbar class="round" (ionInput)="getItems($event)"></ion-searchbar>\n\n    <ion-card class="no-box-shadow">\n\n      <ion-card-header class="black pad-hr-0">\n\n        <strong>HEALTH</strong><br/><br/>\n\n        <button ion-button class="plainwhite text-x-sm" [ngClass]="selectedAll ? \'active\' : \'\'" round (click)="checkAll()">\n\n          <span *ngIf="!selectedAll">\n\n              Select All\n\n          </span>\n\n          <span *ngIf="selectedAll">\n\n              Clear All\n\n          </span>\n\n        </button>\n\n      </ion-card-header>\n\n      <ion-card-content>\n\n          <ion-list class="checkbox-buttons">\n\n            <ion-item>\n\n              <ion-label>Fitness</ion-label>\n\n              <ion-checkbox [(ngModel)]="fitness" [checked]="selectedAll"></ion-checkbox>\n\n            </ion-item>\n\n            <ion-item>\n\n              <ion-label>Tag</ion-label>\n\n              <ion-checkbox [(ngModel)]="tag" [checked]="selectedAll"></ion-checkbox>\n\n            </ion-item>\n\n            <ion-item>\n\n              <ion-label>Link</ion-label>\n\n              <ion-checkbox [(ngModel)]="link" [checked]="selectedAll"></ion-checkbox>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-label>Pink</ion-label>\n\n                <ion-checkbox [(ngModel)]="pink" [checked]="selectedAll"></ion-checkbox>\n\n              </ion-item>\n\n              <ion-item>\n\n                <ion-label>Sausage</ion-label>\n\n                <ion-checkbox [(ngModel)]="sausage" [checked]="selectedAll"></ion-checkbox>\n\n              </ion-item>\n\n              <ion-item>\n\n                <ion-label>Mushrooms</ion-label>\n\n                <ion-checkbox [(ngModel)]="mushrooms" [checked]="selectedAll"></ion-checkbox>\n\n              </ion-item>\n\n          </ion-list>\n\n      </ion-card-content>\n\n    </ion-card>\n\n    <ion-footer>\n\n      <ion-toolbar>\n\n          <button ion-button round full class="orange-gradient" (click)="goToHomePage()">Save</button>\n\n      </ion-toolbar>\n\n    </ion-footer>\n\n</ion-content>\n\n'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\pages\chooseintereset\chooseintereset.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], ChooseinteresetPage);
-    return ChooseinteresetPage;
-}());
-
-//# sourceMappingURL=chooseintereset.js.map
-
-/***/ }),
-
-/***/ 204:
+/***/ 202:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginOptionsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(33);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ion_datepicker__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ion_datepicker__ = __webpack_require__(268);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(94);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__chooseintereset_chooseintereset__ = __webpack_require__(203);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_forms__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_angularfire2_auth__ = __webpack_require__(274);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_firebase__ = __webpack_require__(282);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_angularfire2_auth__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_firebase_app__ = __webpack_require__(281);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_firebase_app___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_firebase_app__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -182,13 +129,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var LoginOptionsPage = (function () {
-    function LoginOptionsPage(navCtrl, navParams, formBuilder, fireAuth, firebase
-        /*private api : ApiService*/ ) {
+    function LoginOptionsPage(navCtrl, navParams, formBuilder, fireAuth) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.formBuilder = formBuilder;
         this.fireAuth = fireAuth;
-        this.firebase = firebase;
         this.localDate = new Date();
         this.loginOptionShown = true;
         this.otpVerificationScreen = false;
@@ -227,10 +172,6 @@ var LoginOptionsPage = (function () {
         this.datepickerDirective.modal.dismiss();
     };
     LoginOptionsPage.prototype.ionViewDidLoad = function () {
-        this.firebase.getToken()
-            .then(function (token) { return console.log("The token is " + token); }) // save the token server-side and use it to push notifications to this device
-            .catch(function (error) { return console.error('Error getting token', error); });
-        console.log('ionViewDidLoad LoginOptionsPage');
     };
     LoginOptionsPage.prototype.onKeyDownPhoneNumber = function (key) {
         if (key.keyCode == 8 || key.keyCode == 65 || key.ctrlKey) {
@@ -263,19 +204,14 @@ var LoginOptionsPage = (function () {
             else {
                 this.passwordResetFlow = true;
             }
-            /*(<any>window).FirebasePlugin.verifyPhoneNumber(number, 60, function(credential) {
-                console.log(credential);
-      
-                // ask user to input verificationCode:
-                var code = inputField.value.toString();
-      
+            window.FirebasePlugin.verifyPhoneNumber('+639351470363', 60, function (credential) {
+                alert('test');
                 this.verificationId = credential.verificationId;
-                
-                var signInCredential = firebase.auth.PhoneAuthProvider.credential(verificationId, code);
-                firebase.auth().signInWithCredential(signInCredential);
-            }, function(error) {
+                var signInCredential = __WEBPACK_IMPORTED_MODULE_7_firebase_app__["auth"].PhoneAuthProvider.credential(verificationId, code);
+                __WEBPACK_IMPORTED_MODULE_7_firebase_app__["auth"]().signInWithCredential(signInCredential);
+            }, function (error) {
                 console.error(error);
-            });*/
+            });
             this.countryCode = this.myForm.controls.myPhone.value;
             this.forgotPasswordScreen = false;
             this.loginOptionShown = false;
@@ -334,6 +270,9 @@ var LoginOptionsPage = (function () {
     //OTP Field
     LoginOptionsPage.prototype.next = function (eve, ef, eb) {
         var _this = this;
+        console.log(eve);
+        console.log(ef);
+        console.log(eb);
         if (eve.keyCode === 8 || eve.keyCode === 37 || eve.keyCode === 46) {
             eb.setFocus();
         }
@@ -380,19 +319,73 @@ var LoginOptionsPage = (function () {
     ], LoginOptionsPage.prototype, "datepickerDirective", void 0);
     LoginOptionsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'page-login-options',template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\pages\login-options\login-options.html"*/'<ion-content>\n\n    <div class="logo-bg pos-rel" *ngIf="!profileDetails">\n\n       <ion-card padding>\n\n          <!-- Login Option Screen -->\n\n          <ion-grid *ngIf="loginOptionShown && !loginSuccessScreen && !loginwithLCID">\n\n             <h1 padding class="orange text-center text-lg">Enter mobile number to continue</h1>\n\n             <ion-row>\n\n\n\n                <form [formGroup]="myForm" novalidate>\n\n                  <ion-col col-4>\n\n                     <int-phone-prefix defaultCountry="ng" class="fl-style" formControlName="myPhone" [(ngModel)]="countryCode"></int-phone-prefix>\n\n                  </ion-col>\n\n                </form>\n\n                  <ion-col col-8>\n\n                     <ion-input [(ngModel)]="phoneNumber" type="number" class="round-input" (keydown)="onKeyDownPhoneNumber($event)"></ion-input>\n\n                     {{errMessage.phoneNumber}}\n\n                  </ion-col>\n\n             </ion-row>\n\n             <ion-row>\n\n                <ion-col col-12>\n\n                   <button ion-button full class="orange-gradient fw-l" round (click)="goToOTPScreen(\'true\')">CONTINUE</button>\n\n                </ion-col>\n\n                <ion-col col-12>\n\n                   <p class="text-sm text-center">or continue with</p>\n\n                </ion-col>\n\n                <ion-col col-6>\n\n                   <button ion-button block color="facebook" class="fw-l" round>Facebook</button>\n\n                </ion-col>\n\n                <ion-col col-6>\n\n                   <button ion-button block color="twitter" class="fw-l" round>Twitter</button>\n\n                </ion-col>\n\n                <ion-col col-12>\n\n                   <button ion-button full clear color="scnd-hlt" (click)="goToLCIDLogin()">Login with LCID</button>\n\n                </ion-col>\n\n             </ion-row>\n\n          </ion-grid>\n\n          <!-- OTP Verification Screen -->\n\n          <ion-grid *ngIf="otpVerificationScreen && !loginOptionShown && !loginSuccessScreen && !loginwithLCID && !forgotPasswordScreen">\n\n             <ion-row>\n\n                <p class="text-lg grey">Waiting to automatically detect an SMS sent to {{countryCode}} {{phoneNumber}}</p>\n\n                <h2 class="orange text-lg" (click)="goToLoginOptionsScreen()">Wrong number?</h2>\n\n             </ion-row>\n\n             <div padding>\n\n                <ion-row padding class="pad-btm-0">\n\n                   <ion-col col-2>\n\n                      <ion-item>\n\n                         <ion-input #input1 type="tel" maxlength="1" placeholder="0" (keyup)="next($event,input2,input1)"></ion-input>\n\n                      </ion-item>\n\n                   </ion-col>\n\n                   <ion-col col-2>\n\n                      <ion-item>\n\n                         <ion-input #input2 type="tel" maxlength="1" placeholder="0" (keyup)="next($event,input3,input1)"></ion-input>\n\n                      </ion-item>\n\n                   </ion-col>\n\n                   <ion-col col-2>\n\n                      <ion-item>\n\n                         <ion-input #input3 type="tel" maxlength="1" placeholder="0" (keyup)="next($event,input4,input2)"></ion-input>\n\n                      </ion-item>\n\n                   </ion-col>\n\n                   <ion-col col-2>\n\n                      <ion-item>\n\n                         <ion-input #input4 type="tel" maxlength="1" placeholder="0" (keyup)="next($event,input5,input3)"></ion-input>\n\n                      </ion-item>\n\n                   </ion-col>\n\n                   <ion-col col-2>\n\n                      <ion-item>\n\n                         <ion-input #input5 type="tel" maxlength="1" placeholder="0" (keyup)="next($event,input6,input4)"></ion-input>\n\n                      </ion-item>\n\n                   </ion-col>\n\n                   <ion-col col-2>\n\n                      <ion-item>\n\n                         <ion-input #input6 type="tel" maxlength="1" placeholder="0" (keyup)="next($event,undefined,input5)"></ion-input>\n\n                      </ion-item>\n\n                   </ion-col>\n\n                </ion-row>\n\n                <ion-row>\n\n                   <ion-col col-12>\n\n                      <p class="text-sm text-center grey">Enter 6-digit code</p>\n\n                   </ion-col>\n\n                </ion-row>\n\n             </div>\n\n             <br><br>\n\n             <ion-row class="bdr-btm pad-vr-5">\n\n                <ion-col col-1>\n\n                   <img src="../assets/imgs/resend-sms.png" alt="sms icon">\n\n                </ion-col>\n\n                <ion-col col-9 class="grey">\n\n                   Resend SMS\n\n                </ion-col>\n\n                <ion-col col-2 class="text-right">\n\n                   1:20\n\n                </ion-col>\n\n             </ion-row>\n\n             <ion-row class="pad-vr-5">\n\n                <ion-col col-1>\n\n                   <img src="../assets/imgs/call.png" alt="call icon">\n\n                </ion-col>\n\n                <ion-col col-9 class="grey">\n\n                   Call me\n\n                </ion-col>\n\n                <ion-col col-2 class="text-right black">\n\n                   1:20\n\n                </ion-col>\n\n             </ion-row>\n\n          </ion-grid>\n\n          <!-- Login Success Screen -->\n\n          <ion-grid *ngIf="loginSuccessScreen && !loginwithLCID">\n\n             <ion-row>\n\n                <ion-col col-12>\n\n                   <img src="../assets/imgs/verified.png" alt="verified icon" class="center-sm-img">\n\n                </ion-col>\n\n                <ion-col col-12>\n\n                   <p class="text-lg text-center grey">Mobile Number verified</p>\n\n                   <p class="text-lg text-center grey">Your Unique LCID is</p>\n\n                   <br/>\n\n                   <h1 class="text-center lightblue">OLUOKU000001</h1>\n\n                   <br/>\n\n                   <button ion-button full class="orange-gradient fw-l" round (click)="goToInterestPage()">NEXT</button>\n\n                </ion-col>\n\n             </ion-row>\n\n          </ion-grid>\n\n          <!-- Login with LCID -->\n\n          <ion-grid *ngIf="loginwithLCID && !forgotPasswordScreen">\n\n             <ion-row padding>\n\n                <h1 class="text-center orange text-lg block">Login with LCID</h1>\n\n                <br/><br/>\n\n                <ion-item class="round">\n\n                   <ion-input placeholder="LCID" type="text"></ion-input>\n\n                   <button ion-button clear class="eye-off" item-end style="margin: 2px 8px 9px 0 !important;position:relative;z-index:9999;height: 40px;width: 40px;">\n\n                      <ion-icon name="person" style="font-size:26px;"></ion-icon>\n\n                   </button>\n\n                </ion-item>\n\n                <ion-item class="round">\n\n                   <ion-input placeholder="Password" type="{{type}}"></ion-input>\n\n                   <button ion-button clear item-end class="{{icon}}" (click)=\'showHide()\' style="position:relative;margin: 2px 8px 9px 0 !important;z-index:9999;height: 30px;width: 30px;">\n\n                      <ion-icon name="{{icon}}" style="font-size:26px;"></ion-icon>\n\n                   </button>\n\n                </ion-item>\n\n             </ion-row>\n\n             <ion-row>\n\n                <ion-col col-12>\n\n                   <button ion-button full class="orange-gradient fw-l" round (click)="goToHomeScreen()">CONTINUE</button>\n\n                </ion-col>\n\n                <ion-col col-12>\n\n                   <button ion-button full color="scnd-hlt" class="fw-l" (click)="goToForgotPasswordScreen()" clear>Forgot Password?</button>\n\n                </ion-col>\n\n             </ion-row>\n\n          </ion-grid>\n\n          <!-- Forgot Password Screen -->\n\n          <ion-grid *ngIf="forgotPasswordScreen">\n\n             <ion-row padding>\n\n                <h1 class="text-center orange text-lg block">Forgot Password</h1>\n\n                <br/><br/>\n\n                <p class="text-center block grey">Please Enter Your Mobile Number</p>\n\n             </ion-row>\n\n             <ion-row>\n\n                <ion-col col-4>\n\n                   <int-phone-prefix defaultCountry="ng" class="fl-style" [(ngModel)]="phoneNumber" readonly></int-phone-prefix>\n\n                </ion-col>\n\n                <ion-col col-8>\n\n                   <ion-input type="tel" class="round-input" maxlength="10"></ion-input>\n\n                </ion-col>\n\n             </ion-row>\n\n             <br/><br/>\n\n             <ion-row>\n\n                <ion-col col-12>\n\n                   <button ion-button full class="orange-gradient fw-l" round (click)="goToOTPScreen()">SEND OTP</button>\n\n                </ion-col>\n\n             </ion-row>\n\n          </ion-grid>\n\n\n\n          <!-- Change Password -->\n\n          <ion-grid *ngIf="changePasswordScreen">\n\n              <ion-row padding>\n\n                 <h1 class="text-center orange text-lg block">Set a new password</h1>\n\n                 <br/>\n\n              </ion-row>\n\n              <ion-row>\n\n                  <ion-item class="round">\n\n                      <ion-input placeholder="Enter new password" type="{{type}}"></ion-input>\n\n                      <button ion-button clear item-end class="{{icon}}" (click)=\'showHide()\' style="position:relative;margin: 2px 8px 9px 0 !important;z-index:9999;height: 30px;width: 30px;">\n\n                         <ion-icon name="{{icon}}" style="font-size:26px;"></ion-icon>\n\n                      </button>\n\n                  </ion-item>\n\n                 \n\n              </ion-row>\n\n              <br/>\n\n              <ion-row>\n\n                 <ion-col col-12>\n\n                    <button ion-button full class="orange-gradient fw-l" round (click)="goToPasswordSuccessScreen()">CHANGE PASSWORD</button>\n\n                 </ion-col>\n\n              </ion-row>\n\n          </ion-grid>\n\n\n\n          <!-- Password Change Successful -->\n\n          <ion-grid *ngIf="passwordChangeSuccessful && !loginSuccessScreen">\n\n              <ion-row>\n\n                 <ion-col col-12>\n\n                    <img src="../assets/imgs/verified.png" alt="verified icon" class="center-sm-img">\n\n                 </ion-col>\n\n                 <ion-col col-12>\n\n                    <p class="text-lg text-center grey">Your password has been changed</p>\n\n                    <br/>\n\n                    <br/>\n\n                    <button ion-button full class="orange-gradient fw-l" round (click)="goToLCIDLogin()">LOGIN TO CONTINUE</button>\n\n                 </ion-col>\n\n              </ion-row>\n\n          </ion-grid>\n\n       </ion-card>\n\n    </div>\n\n    \n\n    <!-- Profile Page -->\n\n    <div class="profile" *ngIf="profileDetails">\n\n       <ion-row class="upload-image orange-gradient" (click)="uploadImage()">\n\n          <span></span>\n\n       </ion-row>\n\n       <div padding>\n\n          <h1 class="text-lg  grey fw-n">Please fill the profile details</h1>\n\n                {{errMessage.firstName}}\n\n                {{errMessage.lastName}}\n\n                {{errMessage.gender}}\n\n                {{errMessage.localDate}}           \n\n          <ion-list no-lines>\n\n             <ion-item class="bdr-btm">\n\n                <ion-label floating>First Name</ion-label>\n\n                <ion-input type="text" [(ngModel)]="firstName"></ion-input>\n\n             </ion-item>\n\n             <ion-item class="bdr-btm">\n\n                <ion-label floating>Last Name</ion-label>\n\n                <ion-input type="text" [(ngModel)]="lastName"></ion-input>\n\n             </ion-item>\n\n             <br/>\n\n             <ion-item class="bdr-btm">\n\n                <ion-label ion-datepicker  placeholder="Date of Birth" [(value)]="localDate" clear class="ScheduleDate">\n\n                Date of Birth: <span class="fw-n black align-right">{{localDate | date}}</span> \n\n                </ion-label>\n\n             </ion-item>\n\n             <br/>\n\n             <ion-item class="bdr-btm">             \n\n                <ion-label>Gender</ion-label>\n\n                <ion-select interface="popover" [(ngModel)]="gender">\n\n                    <ion-option value="male">Male</ion-option>\n\n                    <ion-option value="female">Female</ion-option>\n\n                </ion-select>\n\n             </ion-item>\n\n          </ion-list>\n\n          <br/>\n\n          <button ion-button full class="orange-gradient fw-l" round (click)="goToSuccessScreen()">CONTINUE</button>\n\n       </div>\n\n    </div>\n\n </ion-content>'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\pages\login-options\login-options.html"*/,
+            selector: 'page-login-options',template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\pages\login-options\login-options.html"*/'<ion-content>\n\n    <div class="logo-bg pos-rel" *ngIf="!profileDetails">\n\n       <ion-card padding>\n\n          <!-- Login Option Screen -->\n\n          <ion-grid *ngIf="loginOptionShown && !loginSuccessScreen && !loginwithLCID">\n\n             <h1 padding class="orange text-center text-lg">Enter mobile number to continue</h1>\n\n             <ion-row>\n\n\n\n                <form [formGroup]="myForm" novalidate>\n\n                  <ion-col col-4>\n\n                     <int-phone-prefix defaultCountry="ng" class="fl-style" formControlName="myPhone" [(ngModel)]="countryCode"></int-phone-prefix>\n\n                  </ion-col>\n\n                </form>\n\n                  <ion-col col-8>\n\n                     <ion-input [(ngModel)]="phoneNumber" type="number" class="round-input" (keydown)="onKeyDownPhoneNumber($event)"></ion-input>\n\n                     {{errMessage.phoneNumber}}\n\n                  </ion-col>\n\n             </ion-row>\n\n             <ion-row>\n\n                <ion-col col-12>\n\n                   <button ion-button full class="orange-gradient fw-l" round (click)="goToOTPScreen(\'true\')">CONTINUE</button>\n\n                </ion-col>\n\n                <ion-col col-12>\n\n                   <p class="text-sm text-center">or continue with</p>\n\n                </ion-col>\n\n                <ion-col col-6>\n\n                   <button ion-button block color="facebook" class="fw-l" round>Facebook</button>\n\n                </ion-col>\n\n                <ion-col col-6>\n\n                   <button ion-button block color="twitter" class="fw-l" round>Twitter</button>\n\n                </ion-col>\n\n                <ion-col col-12>\n\n                   <button ion-button full clear color="scnd-hlt" (click)="goToLCIDLogin()">Login with LCID</button>\n\n                </ion-col>\n\n             </ion-row>\n\n          </ion-grid>\n\n          <!-- OTP Verification Screen -->\n\n          <ion-grid *ngIf="otpVerificationScreen && !loginOptionShown && !loginSuccessScreen && !loginwithLCID && !forgotPasswordScreen">\n\n             <ion-row>\n\n                <p class="text-lg grey">Waiting to automatically detect an SMS sent to {{countryCode}} {{phoneNumber}}</p>\n\n                <h2 class="orange text-lg" (click)="goToLoginOptionsScreen()">Wrong number?</h2>\n\n             </ion-row>\n\n             <div padding>\n\n                <ion-row padding class="pad-btm-0">\n\n                   <ion-col col-2>\n\n                      <ion-item>\n\n                         <ion-input #input1 type="tel" maxlength="1" placeholder="0" (keyup)="next($event,input2,input1)"></ion-input>\n\n                      </ion-item>\n\n                   </ion-col>\n\n                   <ion-col col-2>\n\n                      <ion-item>\n\n                         <ion-input #input2 type="tel" maxlength="1" placeholder="0" (keyup)="next($event,input3,input1)"></ion-input>\n\n                      </ion-item>\n\n                   </ion-col>\n\n                   <ion-col col-2>\n\n                      <ion-item>\n\n                         <ion-input #input3 type="tel" maxlength="1" placeholder="0" (keyup)="next($event,input4,input2)"></ion-input>\n\n                      </ion-item>\n\n                   </ion-col>\n\n                   <ion-col col-2>\n\n                      <ion-item>\n\n                         <ion-input #input4 type="tel" maxlength="1" placeholder="0" (keyup)="next($event,input5,input3)"></ion-input>\n\n                      </ion-item>\n\n                   </ion-col>\n\n                   <ion-col col-2>\n\n                      <ion-item>\n\n                         <ion-input #input5 type="tel" maxlength="1" placeholder="0" (keyup)="next($event,input6,input4)"></ion-input>\n\n                      </ion-item>\n\n                   </ion-col>\n\n                   <ion-col col-2>\n\n                      <ion-item>\n\n                         <ion-input #input6 type="tel" maxlength="1" placeholder="0" (keyup)="next($event,undefined,input5)"></ion-input>\n\n                      </ion-item>\n\n                   </ion-col>\n\n                </ion-row>\n\n                <ion-row>\n\n                   <ion-col col-12>\n\n                      <p class="text-sm text-center grey">Enter 6-digit code</p>\n\n                   </ion-col>\n\n                </ion-row>\n\n             </div>\n\n             <br><br>\n\n             <ion-row class="bdr-btm pad-vr-5">\n\n                <ion-col col-1>\n\n                   <img src="../assets/imgs/resend-sms.png" alt="sms icon">\n\n                </ion-col>\n\n                <ion-col col-9 class="grey">\n\n                   Resend SMS\n\n                </ion-col>\n\n                <ion-col col-2 class="text-right">\n\n                   1:20\n\n                </ion-col>\n\n             </ion-row>\n\n             <ion-row class="pad-vr-5">\n\n                <ion-col col-1>\n\n                   <img src="../assets/imgs/call.png" alt="call icon">\n\n                </ion-col>\n\n                <ion-col col-9 class="grey">\n\n                   Call me\n\n                </ion-col>\n\n                <ion-col col-2 class="text-right black">\n\n                   1:20\n\n                </ion-col>\n\n             </ion-row>\n\n          </ion-grid>\n\n          <!-- Login Success Screen -->\n\n          <ion-grid *ngIf="loginSuccessScreen && !loginwithLCID">\n\n             <ion-row>\n\n                <ion-col col-12>\n\n                   <img src="../assets/imgs/verified.png" alt="verified icon" class="center-sm-img">\n\n                </ion-col>\n\n                <ion-col col-12>\n\n                   <p class="text-lg text-center grey">Mobile Number verified</p>\n\n                   <p class="text-lg text-center grey">Your Unique LCID is</p>\n\n                   <br/>\n\n                   <h1 class="text-center lightblue">OLUOKU000001</h1>\n\n                   <br/>\n\n                   <button ion-button full class="orange-gradient fw-l" round (click)="goToInterestPage()">NEXT</button>\n\n                </ion-col>\n\n             </ion-row>\n\n          </ion-grid>\n\n          <!-- Login with LCID -->\n\n          <ion-grid *ngIf="loginwithLCID && !forgotPasswordScreen">\n\n             <ion-row padding>\n\n                <h1 class="text-center orange text-lg block">Login with LCID</h1>\n\n                <br/><br/>\n\n                <ion-item class="round">\n\n                   <ion-input placeholder="LCID" type="text"></ion-input>\n\n                   <button ion-button clear class="eye-off" item-end style="margin: 2px 8px 9px 0 !important;position:relative;z-index:9999;height: 40px;width: 40px;">\n\n                      <ion-icon name="person" style="font-size:26px;"></ion-icon>\n\n                   </button>\n\n                </ion-item>\n\n                <ion-item class="round">\n\n                   <ion-input placeholder="Password" type="{{type}}"></ion-input>\n\n                   <button ion-button clear item-end class="{{icon}}" (click)=\'showHide()\' style="position:relative;margin: 2px 8px 9px 0 !important;z-index:9999;height: 30px;width: 30px;">\n\n                      <ion-icon name="{{icon}}" style="font-size:26px;"></ion-icon>\n\n                   </button>\n\n                </ion-item>\n\n             </ion-row>\n\n             <ion-row>\n\n                <ion-col col-12>\n\n                   <button ion-button full class="orange-gradient fw-l" round (click)="goToHomeScreen()">CONTINUE</button>\n\n                </ion-col>\n\n                <ion-col col-12>\n\n                   <button ion-button full color="scnd-hlt" class="fw-l" (click)="goToForgotPasswordScreen()" clear>Forgot Password?</button>\n\n                </ion-col>\n\n             </ion-row>\n\n          </ion-grid>\n\n          <!-- Forgot Password Screen -->\n\n          <ion-grid *ngIf="forgotPasswordScreen">\n\n             <ion-row padding>\n\n                <h1 class="text-center orange text-lg block">Forgot Password</h1>\n\n                <br/><br/>\n\n                <p class="text-center block grey">Please Enter Your Mobile Number</p>\n\n             </ion-row>\n\n             <ion-row>\n\n                <ion-col col-4>\n\n                   <int-phone-prefix defaultCountry="ng" class="fl-style" [(ngModel)]="phoneNumber" readonly></int-phone-prefix>\n\n                </ion-col>\n\n                <ion-col col-8>\n\n                   <ion-input type="tel" class="round-input" maxlength="10"></ion-input>\n\n                </ion-col>\n\n             </ion-row>\n\n             <br/><br/>\n\n             <ion-row>\n\n                <ion-col col-12>\n\n                   <button ion-button full class="orange-gradient fw-l" round (click)="goToOTPScreen()">SEND OTP</button>\n\n                </ion-col>\n\n             </ion-row>\n\n          </ion-grid>\n\n\n\n          <!-- Change Password -->\n\n          <ion-grid *ngIf="changePasswordScreen">\n\n              <ion-row padding>\n\n                 <h1 class="text-center orange text-lg block">Set a new password</h1>\n\n                 <br/>\n\n              </ion-row>\n\n              <ion-row>\n\n                  <ion-item class="round">\n\n                      <ion-input placeholder="Enter new password" type="{{type}}"></ion-input>\n\n                      <button ion-button clear item-end class="{{icon}}" (click)=\'showHide()\' style="position:relative;margin: 2px 8px 9px 0 !important;z-index:9999;height: 30px;width: 30px;">\n\n                         <ion-icon name="{{icon}}" style="font-size:26px;"></ion-icon>\n\n                      </button>\n\n                  </ion-item>\n\n                 \n\n              </ion-row>\n\n              <br/>\n\n              <ion-row>\n\n                 <ion-col col-12>\n\n                    <button ion-button full class="orange-gradient fw-l" round (click)="goToPasswordSuccessScreen()">CHANGE PASSWORD</button>\n\n                 </ion-col>\n\n              </ion-row>\n\n          </ion-grid>\n\n\n\n          <!-- Password Change Successful -->\n\n          <ion-grid *ngIf="passwordChangeSuccessful && !loginSuccessScreen">\n\n              <ion-row>\n\n                 <ion-col col-12>\n\n                    <img src="../assets/imgs/verified.png" alt="verified icon" class="center-sm-img">\n\n                 </ion-col>\n\n                 <ion-col col-12>\n\n                    <p class="text-lg text-center grey">Your password has been changed</p>\n\n                    <br/>\n\n                    <br/>\n\n                    <button ion-button full class="orange-gradient fw-l" round (click)="goToLCIDLogin()">LOGIN TO CONTINUE</button>\n\n                 </ion-col>\n\n              </ion-row>\n\n          </ion-grid>\n\n       </ion-card>\n\n    </div>\n\n    \n\n    <!-- Profile Page -->\n\n    <div class="profile" *ngIf="profileDetails">\n\n       <ion-row class="upload-image orange-gradient" (click)="uploadImage()">\n\n          <span></span>\n\n       </ion-row>\n\n       <div padding>\n\n          <h1 class="text-lg  grey fw-n">Please fill the profile details</h1>\n\n                {{errMessage.firstName}}\n\n                {{errMessage.lastName}}\n\n                {{errMessage.gender}}\n\n                {{errMessage.localDate}}           \n\n          <ion-list no-lines>\n\n             <ion-item class="bdr-btm">\n\n                <ion-label floating>First Name</ion-label>\n\n                <ion-input type="text" [(ngModel)]="firstName"></ion-input>\n\n             </ion-item>\n\n             <ion-item class="bdr-btm">\n\n                <ion-label floating>Last Name</ion-label>\n\n                <ion-input type="text" [(ngModel)]="lastName"></ion-input>\n\n             </ion-item>\n\n             <br/>\n\n             <ion-item class="bdr-btm">\n\n                <ion-label ion-datepicker  placeholder="Date of Birth" [(value)]="localDate" clear class="ScheduleDate">\n\n                Date of Birth: <span class="fw-n black align-right">{{localDate | date}}</span> \n\n                </ion-label>\n\n             </ion-item>\n\n             <br/>\n\n             <ion-item class="bdr-btm">             \n\n                <ion-label>Gender</ion-label>\n\n                <ion-select interface="popover" [(ngModel)]="gender">\n\n                    <ion-option value="male">Male</ion-option>\n\n                    <ion-option value="female">Female</ion-option>\n\n                </ion-select>\n\n             </ion-item>\n\n          </ion-list>\n\n          <br/>\n\n          <button ion-button full class="orange-gradient fw-l" round (click)="goToSuccessScreen()">CONTINUE</button>\n\n       </div>\n\n    </div>\n\n </ion-content>'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\pages\login-options\login-options.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_5__angular_forms__["a" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__angular_forms__["a" /* FormBuilder */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_6_angularfire2_auth__["a" /* AngularFireAuth */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6_angularfire2_auth__["a" /* AngularFireAuth */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_7__ionic_native_firebase__["a" /* Firebase */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7__ionic_native_firebase__["a" /* Firebase */]) === "function" && _f || Object])
+        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_5__angular_forms__["a" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__angular_forms__["a" /* FormBuilder */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_6_angularfire2_auth__["a" /* AngularFireAuth */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6_angularfire2_auth__["a" /* AngularFireAuth */]) === "function" && _e || Object])
     ], LoginOptionsPage);
     return LoginOptionsPage;
-    var _a, _b, _c, _d, _e, _f;
+    var _a, _b, _c, _d, _e;
 }());
 
 //# sourceMappingURL=login-options.js.map
 
 /***/ }),
 
-/***/ 224:
+/***/ 203:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChooseinteresetPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(94);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the ChooseinteresetPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var ChooseinteresetPage = (function () {
+    function ChooseinteresetPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.selectedAll = false;
+    }
+    ChooseinteresetPage.prototype.goToHomePage = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */]);
+    };
+    ChooseinteresetPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ChooseinteresetPage');
+    };
+    ChooseinteresetPage.prototype.checkAll = function () {
+        this.selectedAll = !this.selectedAll;
+    };
+    ChooseinteresetPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'page-chooseintereset',template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\pages\chooseintereset\chooseintereset.html"*/'<ion-header class="top-bar"></ion-header>\n\n\n\n\n\n<ion-content>\n\n  \n\n    <ion-row class="bdr-btm pad-hr-10">\n\n      <ion-col col-9>\n\n        <h2 class="fw-n text-lg">Choose your interests </h2>\n\n      </ion-col>\n\n      <ion-col col-3>\n\n        <h2 class="orange text-right fw-n text-lg" (click)="goToHomePage()">Skip</h2>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-searchbar class="round" (ionInput)="getItems($event)"></ion-searchbar>\n\n    <ion-card class="no-box-shadow">\n\n      <ion-card-header class="black pad-hr-0">\n\n        <strong>HEALTH</strong><br/><br/>\n\n        <button ion-button class="plainwhite text-x-sm" [ngClass]="selectedAll ? \'active\' : \'\'" round (click)="checkAll()">\n\n          <span *ngIf="!selectedAll">\n\n              Select All\n\n          </span>\n\n          <span *ngIf="selectedAll">\n\n              Clear All\n\n          </span>\n\n        </button>\n\n      </ion-card-header>\n\n      <ion-card-content>\n\n          <ion-list class="checkbox-buttons">\n\n            <ion-item>\n\n              <ion-label>Fitness</ion-label>\n\n              <ion-checkbox [(ngModel)]="fitness" [checked]="selectedAll"></ion-checkbox>\n\n            </ion-item>\n\n            <ion-item>\n\n              <ion-label>Tag</ion-label>\n\n              <ion-checkbox [(ngModel)]="tag" [checked]="selectedAll"></ion-checkbox>\n\n            </ion-item>\n\n            <ion-item>\n\n              <ion-label>Link</ion-label>\n\n              <ion-checkbox [(ngModel)]="link" [checked]="selectedAll"></ion-checkbox>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-label>Pink</ion-label>\n\n                <ion-checkbox [(ngModel)]="pink" [checked]="selectedAll"></ion-checkbox>\n\n              </ion-item>\n\n              <ion-item>\n\n                <ion-label>Sausage</ion-label>\n\n                <ion-checkbox [(ngModel)]="sausage" [checked]="selectedAll"></ion-checkbox>\n\n              </ion-item>\n\n              <ion-item>\n\n                <ion-label>Mushrooms</ion-label>\n\n                <ion-checkbox [(ngModel)]="mushrooms" [checked]="selectedAll"></ion-checkbox>\n\n              </ion-item>\n\n          </ion-list>\n\n      </ion-card-content>\n\n    </ion-card>\n\n    <ion-footer>\n\n      <ion-toolbar>\n\n          <button ion-button round full class="orange-gradient" (click)="goToHomePage()">Save</button>\n\n      </ion-toolbar>\n\n    </ion-footer>\n\n</ion-content>\n\n'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\pages\chooseintereset\chooseintereset.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], ChooseinteresetPage);
+    return ChooseinteresetPage;
+}());
+
+//# sourceMappingURL=chooseintereset.js.map
+
+/***/ }),
+
+/***/ 223:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -405,11 +398,11 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 224;
+webpackEmptyAsyncContext.id = 223;
 
 /***/ }),
 
-/***/ 268:
+/***/ 267:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -418,15 +411,15 @@ var map = {
 		3
 	],
 	"../pages/expense/expense.module": [
-		623,
+		622,
 		2
 	],
 	"../pages/fitness/fitness.module": [
-		624,
+		623,
 		1
 	],
 	"../pages/login-options/login-options.module": [
-		626,
+		624,
 		0
 	]
 };
@@ -441,12 +434,12 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 268;
+webpackAsyncContext.id = 267;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 365:
+/***/ 363:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -489,43 +482,44 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(62);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(33);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ng4_intl_phone__ = __webpack_require__(539);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ion_datepicker__ = __webpack_require__(269);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(541);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ng4_intl_phone__ = __webpack_require__(535);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ion_datepicker__ = __webpack_require__(268);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(537);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(94);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_tabs_tabs__ = __webpack_require__(542);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_fitness_fitness__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_expense_expense__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_login_options_login_options__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_tabs_tabs__ = __webpack_require__(541);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_fitness_fitness__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_expense_expense__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_login_options_login_options__ = __webpack_require__(202);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_chooseintereset_chooseintereset__ = __webpack_require__(203);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_angularfire2__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_angularfire2_auth__ = __webpack_require__(274);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_angularfire2_firestore__ = __webpack_require__(543);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_angularfire2_storage__ = __webpack_require__(584);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_native_firebase__ = __webpack_require__(282);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_angularfire2_auth__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_angularfire2_firestore__ = __webpack_require__(542);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_angularfire2_storage__ = __webpack_require__(583);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_firebase_app__ = __webpack_require__(281);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_firebase_app___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16_firebase_app__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_ionic_audio__ = __webpack_require__(344);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_article_article__ = __webpack_require__(604);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_article_mini_scroll_article_mini_scroll__ = __webpack_require__(605);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__components_article_scroll_article_scroll__ = __webpack_require__(606);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__components_card_with_audio_card_with_audio__ = __webpack_require__(607);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__components_card_with_form_card_with_form__ = __webpack_require__(608);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_card_with_landscape_image_card_with_landscape_image__ = __webpack_require__(609);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_card_with_landscape_image_scroll_card_with_landscape_image_scroll__ = __webpack_require__(610);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_card_with_opinion_poll_card_with_opinion_poll__ = __webpack_require__(611);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__components_card_with_potrait_image_card_with_potrait_image__ = __webpack_require__(612);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__components_card_with_potrait_image_scroll_card_with_potrait_image_scroll__ = __webpack_require__(613);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__components_card_with_quotes_card_with_quotes__ = __webpack_require__(614);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__components_card_with_testimonial_card_with_testimonial__ = __webpack_require__(615);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__components_card_with_video_card_with_video__ = __webpack_require__(616);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__components_category_scroll_category_scroll__ = __webpack_require__(617);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__components_home_dashboard_banner_home_dashboard_banner__ = __webpack_require__(618);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__components_profile_completion_card_profile_completion_card__ = __webpack_require__(619);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__components_social_card_social_card__ = __webpack_require__(620);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__components_tool_card_tool_card__ = __webpack_require__(621);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__components_tools_scroll_tools_scroll__ = __webpack_require__(622);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__ionic_native_status_bar__ = __webpack_require__(325);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_article_article__ = __webpack_require__(603);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_article_mini_scroll_article_mini_scroll__ = __webpack_require__(604);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__components_article_scroll_article_scroll__ = __webpack_require__(605);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__components_card_with_audio_card_with_audio__ = __webpack_require__(606);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__components_card_with_form_card_with_form__ = __webpack_require__(607);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_card_with_landscape_image_card_with_landscape_image__ = __webpack_require__(608);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_card_with_landscape_image_scroll_card_with_landscape_image_scroll__ = __webpack_require__(609);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_card_with_opinion_poll_card_with_opinion_poll__ = __webpack_require__(610);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__components_card_with_potrait_image_card_with_potrait_image__ = __webpack_require__(611);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__components_card_with_potrait_image_scroll_card_with_potrait_image_scroll__ = __webpack_require__(612);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__components_card_with_quotes_card_with_quotes__ = __webpack_require__(613);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__components_card_with_testimonial_card_with_testimonial__ = __webpack_require__(614);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__components_card_with_video_card_with_video__ = __webpack_require__(615);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__components_category_scroll_category_scroll__ = __webpack_require__(616);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__components_home_dashboard_banner_home_dashboard_banner__ = __webpack_require__(617);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__components_profile_completion_card_profile_completion_card__ = __webpack_require__(618);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__components_social_card_social_card__ = __webpack_require__(619);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__components_tool_card_tool_card__ = __webpack_require__(620);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__components_tools_scroll_tools_scroll__ = __webpack_require__(621);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__ionic_native_status_bar__ = __webpack_require__(323);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__ionic_native_splash_screen__ = __webpack_require__(326);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__shared_config__ = __webpack_require__(365);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__shared_config__ = __webpack_require__(363);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -580,6 +574,7 @@ function myCustomAudioProviderFactory() {
 
 
 
+__WEBPACK_IMPORTED_MODULE_16_firebase_app__["initializeApp"](__WEBPACK_IMPORTED_MODULE_39__shared_config__["a" /* config */].firebase);
 var AppModule = (function () {
     function AppModule() {
     }
@@ -622,8 +617,8 @@ var AppModule = (function () {
                     links: [
                         { loadChildren: '../pages/expense/expense.module#ExpensePageModule', name: 'ExpensePage', segment: 'expense', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/fitness/fitness.module#FitnessPageModule', name: 'FitnessPage', segment: 'fitness', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/chooseintereset/chooseintereset.module#ChooseinteresetPageModule', name: 'ChooseinteresetPage', segment: 'chooseintereset', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/login-options/login-options.module#LoginOptionsPageModule', name: 'LoginOptionsPage', segment: 'login-options', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/login-options/login-options.module#LoginOptionsPageModule', name: 'LoginOptionsPage', segment: 'login-options', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/chooseintereset/chooseintereset.module#ChooseinteresetPageModule', name: 'ChooseinteresetPage', segment: 'chooseintereset', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_12_angularfire2__["a" /* AngularFireModule */].initializeApp(__WEBPACK_IMPORTED_MODULE_39__shared_config__["a" /* config */].firebase),
@@ -644,7 +639,6 @@ var AppModule = (function () {
             providers: [
                 __WEBPACK_IMPORTED_MODULE_37__ionic_native_status_bar__["a" /* StatusBar */],
                 __WEBPACK_IMPORTED_MODULE_38__ionic_native_splash_screen__["a" /* SplashScreen */],
-                __WEBPACK_IMPORTED_MODULE_16__ionic_native_firebase__["a" /* Firebase */],
                 { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] }
             ]
         })
@@ -656,16 +650,16 @@ var AppModule = (function () {
 
 /***/ }),
 
-/***/ 541:
+/***/ 537:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(33);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(325);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(323);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(326);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_login_options_login_options__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_login_options_login_options__ = __webpack_require__(202);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -691,7 +685,7 @@ var MyApp = (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\app\app.html"*/'<ion-menu [content]="content">\n\n    <ion-header>\n\n        <ion-toolbar>\n\n        <ion-title>Menu</ion-title>\n\n        </ion-toolbar>\n\n    </ion-header>\n\n\n\n    <ion-content>\n\n        <ion-list>\n\n        <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n\n            {{p.title}}\n\n        </button>\n\n        </ion-list>\n\n    </ion-content>\n\n</ion-menu>\n\n\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\app\app.html"*/'<ion-menu [content]="content">\n\n    <ion-header>\n\n        <ion-toolbar>\n\n        <ion-title>Menu</ion-title>\n\n        </ion-toolbar>\n\n    </ion-header>\n\n\n\n    <ion-content>\n\n        <ion-list>\n\n        <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n\n            {{p.title}}\n\n        </button>\n\n        </ion-list>\n\n    </ion-content>\n\n</ion-menu>\n\n\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\app\app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
@@ -702,15 +696,15 @@ var MyApp = (function () {
 
 /***/ }),
 
-/***/ 542:
+/***/ 541:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__home_home__ = __webpack_require__(94);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__fitness_fitness__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__expense_expense__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__fitness_fitness__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__expense_expense__ = __webpack_require__(200);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -731,7 +725,7 @@ var TabsPage = (function () {
         this.tab3Root = __WEBPACK_IMPORTED_MODULE_3__expense_expense__["a" /* ExpensePage */];
     }
     TabsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\pages\tabs\tabs.html"*/'<ion-tabs>\n\n  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>\n\n  <ion-tab [root]="tab2Root" tabTitle="Fitness" tabIcon="information-circle"></ion-tab>\n\n  <ion-tab [root]="tab3Root" tabTitle="Expense" tabIcon="contacts"></ion-tab>\n\n</ion-tabs>\n\n'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\pages\tabs\tabs.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\pages\tabs\tabs.html"*/'<ion-tabs>\n\n  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>\n\n  <ion-tab [root]="tab2Root" tabTitle="Fitness" tabIcon="information-circle"></ion-tab>\n\n  <ion-tab [root]="tab3Root" tabTitle="Expense" tabIcon="contacts"></ion-tab>\n\n</ion-tabs>\n\n'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\pages\tabs\tabs.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], TabsPage);
@@ -742,7 +736,7 @@ var TabsPage = (function () {
 
 /***/ }),
 
-/***/ 604:
+/***/ 603:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -771,7 +765,7 @@ var ArticleComponent = (function () {
     }
     ArticleComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'article',template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\components\article\article.html"*/'<ion-card class="article-design">\n\n    <img src="assets/imgs/investment.jpg" alt="Investment Image" class="img-responsive"/>\n\n    <ion-card-content>\n\n    <ion-card-title class="card-heading">\n\n        Bank Account Tips For Young People\n\n    </ion-card-title>\n\n    <span class="card-sub-heading">source.com • 1h • 1235 Reads • 5 min read</span>\n\n    <p class="card-content line-clamp">\n\n        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.\n\n    </p>\n\n    <ion-row class="card-tag">\n\n        <ion-item class="pad-0">\n\n            <span item-left class="hash-tag">#Topic</span>\n\n            <button ion-button icon-left clear item-end color="dark">\n\n                <ion-icon ios="ios-more" md="md-more"></ion-icon>\n\n            </button>\n\n        </ion-item>\n\n    </ion-row>\n\n    </ion-card-content>\n\n</ion-card>'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\components\article\article.html"*/
+            selector: 'article',template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\article\article.html"*/'<ion-card class="article-design">\n\n    <img src="assets/imgs/investment.jpg" alt="Investment Image" class="img-responsive"/>\n\n    <ion-card-content>\n\n    <ion-card-title class="card-heading">\n\n        Bank Account Tips For Young People\n\n    </ion-card-title>\n\n    <span class="card-sub-heading">source.com • 1h • 1235 Reads • 5 min read</span>\n\n    <p class="card-content line-clamp">\n\n        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.\n\n    </p>\n\n    <ion-row class="card-tag">\n\n        <ion-item class="pad-0">\n\n            <span item-left class="hash-tag">#Topic</span>\n\n            <button ion-button icon-left clear item-end color="dark">\n\n                <ion-icon ios="ios-more" md="md-more"></ion-icon>\n\n            </button>\n\n        </ion-item>\n\n    </ion-row>\n\n    </ion-card-content>\n\n</ion-card>'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\article\article.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], ArticleComponent);
@@ -782,7 +776,7 @@ var ArticleComponent = (function () {
 
 /***/ }),
 
-/***/ 605:
+/***/ 604:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -811,7 +805,7 @@ var ArticleMiniScrollComponent = (function () {
     }
     ArticleMiniScrollComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'article-mini-scroll',template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\components\article-mini-scroll\article-mini-scroll.html"*/'\n\n<ion-scroll class="article-mini-scroll" style="margin-top:15px;" scrollX="true">\n\n    <ion-card class="article-carsouel block">\n\n       <img src="assets/imgs/investment.jpg" alt="Investment Image" class="img-responsive"/>\n\n       <ion-card-content>\n\n          <ion-card-title class="card-heading">\n\n             Bank Account Tips For Young People\n\n          </ion-card-title>\n\n          <ion-row class="card-tag">\n\n             <ion-item class="pad-0">\n\n                <span class="card-sub-heading">1235 Reads • 5 min read</span>\n\n                <button ion-button icon-left clear item-end color="dark">\n\n                   <ion-icon ios="ios-more" md="md-more"></ion-icon>\n\n                </button>\n\n             </ion-item>\n\n          </ion-row>\n\n       </ion-card-content>\n\n    </ion-card>\n\n    <ion-card class="article-carsouel block">\n\n        <img src="assets/imgs/investment.jpg" alt="Investment Image" class="img-responsive"/>\n\n        <ion-card-content>\n\n            <ion-card-title class="card-heading">\n\n                Bank Account Tips For Young People\n\n            </ion-card-title>\n\n            \n\n            <ion-row class="card-tag">\n\n                <ion-item class="pad-0">\n\n                <span class="card-sub-heading">1235 Reads • 5 min read</span>\n\n                <button ion-button icon-left clear item-end color="dark">\n\n                    <ion-icon ios="ios-more" md="md-more"></ion-icon>\n\n                </button>\n\n                </ion-item>\n\n            </ion-row>\n\n        </ion-card-content>\n\n    </ion-card>\n\n    <ion-card class="article-carsouel block">\n\n        <img src="assets/imgs/investment.jpg" alt="Investment Image" class="img-responsive"/>\n\n        <ion-card-content>\n\n            <ion-card-title class="card-heading">\n\n                Bank Account Tips For Young People\n\n            </ion-card-title>\n\n            <ion-row class="card-tag">\n\n                <ion-item class="pad-0">\n\n                <span class="card-sub-heading">1235 Reads • 5 min read</span>\n\n                <button ion-button icon-left clear item-end color="dark">\n\n                    <ion-icon ios="ios-more" md="md-more"></ion-icon>\n\n                </button>\n\n                </ion-item>\n\n            </ion-row>\n\n        </ion-card-content>\n\n    </ion-card>\n\n</ion-scroll>'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\components\article-mini-scroll\article-mini-scroll.html"*/
+            selector: 'article-mini-scroll',template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\article-mini-scroll\article-mini-scroll.html"*/'\n\n<ion-scroll class="article-mini-scroll" style="margin-top:15px;" scrollX="true">\n\n    <ion-card class="article-carsouel block">\n\n       <img src="assets/imgs/investment.jpg" alt="Investment Image" class="img-responsive"/>\n\n       <ion-card-content>\n\n          <ion-card-title class="card-heading">\n\n             Bank Account Tips For Young People\n\n          </ion-card-title>\n\n          <ion-row class="card-tag">\n\n             <ion-item class="pad-0">\n\n                <span class="card-sub-heading">1235 Reads • 5 min read</span>\n\n                <button ion-button icon-left clear item-end color="dark">\n\n                   <ion-icon ios="ios-more" md="md-more"></ion-icon>\n\n                </button>\n\n             </ion-item>\n\n          </ion-row>\n\n       </ion-card-content>\n\n    </ion-card>\n\n    <ion-card class="article-carsouel block">\n\n        <img src="assets/imgs/investment.jpg" alt="Investment Image" class="img-responsive"/>\n\n        <ion-card-content>\n\n            <ion-card-title class="card-heading">\n\n                Bank Account Tips For Young People\n\n            </ion-card-title>\n\n            \n\n            <ion-row class="card-tag">\n\n                <ion-item class="pad-0">\n\n                <span class="card-sub-heading">1235 Reads • 5 min read</span>\n\n                <button ion-button icon-left clear item-end color="dark">\n\n                    <ion-icon ios="ios-more" md="md-more"></ion-icon>\n\n                </button>\n\n                </ion-item>\n\n            </ion-row>\n\n        </ion-card-content>\n\n    </ion-card>\n\n    <ion-card class="article-carsouel block">\n\n        <img src="assets/imgs/investment.jpg" alt="Investment Image" class="img-responsive"/>\n\n        <ion-card-content>\n\n            <ion-card-title class="card-heading">\n\n                Bank Account Tips For Young People\n\n            </ion-card-title>\n\n            <ion-row class="card-tag">\n\n                <ion-item class="pad-0">\n\n                <span class="card-sub-heading">1235 Reads • 5 min read</span>\n\n                <button ion-button icon-left clear item-end color="dark">\n\n                    <ion-icon ios="ios-more" md="md-more"></ion-icon>\n\n                </button>\n\n                </ion-item>\n\n            </ion-row>\n\n        </ion-card-content>\n\n    </ion-card>\n\n</ion-scroll>'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\article-mini-scroll\article-mini-scroll.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], ArticleMiniScrollComponent);
@@ -822,7 +816,7 @@ var ArticleMiniScrollComponent = (function () {
 
 /***/ }),
 
-/***/ 606:
+/***/ 605:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -851,7 +845,7 @@ var ArticleScrollComponent = (function () {
     }
     ArticleScrollComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'article-scroll',template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\components\article-scroll\article-scroll.html"*/'<ion-scroll class="article-scroll" scrollX="true">\n\n    <ion-card class="article-carsouel block">\n\n       <img src="assets/imgs/investment.jpg" alt="Investment Image" class="img-responsive"/>\n\n       <ion-card-content>\n\n          <ion-card-title class="card-heading">\n\n             Bank Account Tips For Young People\n\n          </ion-card-title>\n\n          <span class="card-sub-heading">source.com • 1h • 1235 Reads • 5 min read</span>\n\n          <ion-row class="card-tag">\n\n             <ion-item class="pad-0">\n\n                <span item-left class="hash-tag">#Topic</span>\n\n                <button ion-button icon-left clear item-end color="dark">\n\n                   <ion-icon ios="ios-more" md="md-more"></ion-icon>\n\n                </button>\n\n             </ion-item>\n\n          </ion-row>\n\n       </ion-card-content>\n\n    </ion-card>\n\n    <ion-card class="article-carsouel block">\n\n        <img src="assets/imgs/investment.jpg" alt="Investment Image" class="img-responsive"/>\n\n        <ion-card-content>\n\n            <ion-card-title class="card-heading">\n\n                Bank Account Tips For Young People\n\n            </ion-card-title>\n\n            <span class="card-sub-heading">source.com • 1h • 1235 Reads • 5 min read</span>\n\n            <ion-row class="card-tag">\n\n                <ion-item class="pad-0">\n\n                <span item-left class="hash-tag">#Topic</span>\n\n                <button ion-button icon-left clear item-end color="dark">\n\n                    <ion-icon ios="ios-more" md="md-more"></ion-icon>\n\n                </button>\n\n                </ion-item>\n\n            </ion-row>\n\n        </ion-card-content>\n\n    </ion-card>\n\n    <ion-card class="article-carsouel block">\n\n        <img src="assets/imgs/investment.jpg" alt="Investment Image" class="img-responsive"/>\n\n        <ion-card-content>\n\n            <ion-card-title class="card-heading">\n\n                Bank Account Tips For Young People\n\n            </ion-card-title>\n\n            <span class="card-sub-heading">source.com • 1h • 1235 Reads • 5 min read</span>\n\n            <ion-row class="card-tag">\n\n                <ion-item class="pad-0">\n\n                <span item-left class="hash-tag">#Topic</span>\n\n                <button ion-button icon-left clear item-end color="dark">\n\n                    <ion-icon ios="ios-more" md="md-more"></ion-icon>\n\n                </button>\n\n                </ion-item>\n\n            </ion-row>\n\n        </ion-card-content>\n\n    </ion-card>\n\n</ion-scroll>'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\components\article-scroll\article-scroll.html"*/
+            selector: 'article-scroll',template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\article-scroll\article-scroll.html"*/'<ion-scroll class="article-scroll" scrollX="true">\n\n    <ion-card class="article-carsouel block">\n\n       <img src="assets/imgs/investment.jpg" alt="Investment Image" class="img-responsive"/>\n\n       <ion-card-content>\n\n          <ion-card-title class="card-heading">\n\n             Bank Account Tips For Young People\n\n          </ion-card-title>\n\n          <span class="card-sub-heading">source.com • 1h • 1235 Reads • 5 min read</span>\n\n          <ion-row class="card-tag">\n\n             <ion-item class="pad-0">\n\n                <span item-left class="hash-tag">#Topic</span>\n\n                <button ion-button icon-left clear item-end color="dark">\n\n                   <ion-icon ios="ios-more" md="md-more"></ion-icon>\n\n                </button>\n\n             </ion-item>\n\n          </ion-row>\n\n       </ion-card-content>\n\n    </ion-card>\n\n    <ion-card class="article-carsouel block">\n\n        <img src="assets/imgs/investment.jpg" alt="Investment Image" class="img-responsive"/>\n\n        <ion-card-content>\n\n            <ion-card-title class="card-heading">\n\n                Bank Account Tips For Young People\n\n            </ion-card-title>\n\n            <span class="card-sub-heading">source.com • 1h • 1235 Reads • 5 min read</span>\n\n            <ion-row class="card-tag">\n\n                <ion-item class="pad-0">\n\n                <span item-left class="hash-tag">#Topic</span>\n\n                <button ion-button icon-left clear item-end color="dark">\n\n                    <ion-icon ios="ios-more" md="md-more"></ion-icon>\n\n                </button>\n\n                </ion-item>\n\n            </ion-row>\n\n        </ion-card-content>\n\n    </ion-card>\n\n    <ion-card class="article-carsouel block">\n\n        <img src="assets/imgs/investment.jpg" alt="Investment Image" class="img-responsive"/>\n\n        <ion-card-content>\n\n            <ion-card-title class="card-heading">\n\n                Bank Account Tips For Young People\n\n            </ion-card-title>\n\n            <span class="card-sub-heading">source.com • 1h • 1235 Reads • 5 min read</span>\n\n            <ion-row class="card-tag">\n\n                <ion-item class="pad-0">\n\n                <span item-left class="hash-tag">#Topic</span>\n\n                <button ion-button icon-left clear item-end color="dark">\n\n                    <ion-icon ios="ios-more" md="md-more"></ion-icon>\n\n                </button>\n\n                </ion-item>\n\n            </ion-row>\n\n        </ion-card-content>\n\n    </ion-card>\n\n</ion-scroll>'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\article-scroll\article-scroll.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], ArticleScrollComponent);
@@ -862,7 +856,7 @@ var ArticleScrollComponent = (function () {
 
 /***/ }),
 
-/***/ 607:
+/***/ 606:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -915,7 +909,7 @@ var CardWithAudioComponent = (function () {
     };
     CardWithAudioComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'card-with-audio',template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\components\card-with-audio\card-with-audio.html"*/'<ion-card color="dark" class="no-box-shadow">    \n\n        <ion-card-content>\n\n          <ion-card-title class="article-heading">\n\n              8 Steps To An Organized\n\n              Financial Life\n\n            </ion-card-title>\n\n            <p class="article-author">By Author Name | Updated November 6, 2017 — 1:46 PM</p>\n\n            <p class="article-time">10 min read</p>\n\n            <h2 class="article-para-heading">1. Pull Out Your Budget at Least Once Per Month</h2>\n\n            <p class="article-para">Your bills could change on a monthly basis.\n\n                Revise your budget as bills come in and adjust\n\n                other expenses to make up for it, so you don\'t\n\n                accidentally overdraw your bank account. For\n\n                instance, some months and seasons bring\n\n                higher electrical bills than others. Let\'s say\n\n                your electric bill is a $100 more in June than it\n\n                was in May.</p>\n\n                <p class="article-para">Your bills could change on a monthly basis.\n\n                    Revise your budget as bills come in and adjust\n\n                    other expenses to make up for it, so you don\'t\n\n                    accidentally overdraw your bank account. For\n\n                    instance, some months and seasons bring\n\n                    higher electrical bills than others. Let\'s say\n\n                    your electric bill is a $100 more in June than it\n\n                    was in May.</p>\n\n        </ion-card-content>\n\n        <ion-card style="border-radius:8px;" class="pos-rel" color="orangecolor">\n\n                <img src="assets/imgs/audio-banner.png"/>\n\n                <ion-card-content class="pad-0">\n\n                   \n\n                    <audio-track #audio *ngFor="let track of myTracks"  [track]="track" (onFinish)="onTrackFinished($event)">\n\n                          <ion-item>  \n\n                              <ion-thumbnail item-right>\n\n                                  <audio-track-play dark [audioTrack]="audio"><ion-spinner></ion-spinner></audio-track-play>  \n\n                              </ion-thumbnail>\n\n                              <div item-content style="width:100%">\n\n                                  <p><strong>{{audio.title}}</strong></p>\n\n                                  <p><em>{{audio.artist}}</em></p>\n\n                              </div>\n\n                              \n\n                          </ion-item> \n\n                          \n\n                          <audio-track-progress-bar dark duration progress [audioTrack]="audio"></audio-track-progress-bar>\n\n                      </audio-track>\n\n                </ion-card-content>\n\n              </ion-card>\n\n    </ion-card>\n\n\n\n\n\n\n\n'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\components\card-with-audio\card-with-audio.html"*/
+            selector: 'card-with-audio',template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\card-with-audio\card-with-audio.html"*/'<ion-card color="dark" class="no-box-shadow">    \n\n        <ion-card-content>\n\n          <ion-card-title class="article-heading">\n\n              8 Steps To An Organized\n\n              Financial Life\n\n            </ion-card-title>\n\n            <p class="article-author">By Author Name | Updated November 6, 2017 — 1:46 PM</p>\n\n            <p class="article-time">10 min read</p>\n\n            <h2 class="article-para-heading">1. Pull Out Your Budget at Least Once Per Month</h2>\n\n            <p class="article-para">Your bills could change on a monthly basis.\n\n                Revise your budget as bills come in and adjust\n\n                other expenses to make up for it, so you don\'t\n\n                accidentally overdraw your bank account. For\n\n                instance, some months and seasons bring\n\n                higher electrical bills than others. Let\'s say\n\n                your electric bill is a $100 more in June than it\n\n                was in May.</p>\n\n                <p class="article-para">Your bills could change on a monthly basis.\n\n                    Revise your budget as bills come in and adjust\n\n                    other expenses to make up for it, so you don\'t\n\n                    accidentally overdraw your bank account. For\n\n                    instance, some months and seasons bring\n\n                    higher electrical bills than others. Let\'s say\n\n                    your electric bill is a $100 more in June than it\n\n                    was in May.</p>\n\n        </ion-card-content>\n\n        <ion-card style="border-radius:8px;" class="pos-rel" color="orangecolor">\n\n                <img src="assets/imgs/audio-banner.png"/>\n\n                <ion-card-content class="pad-0">\n\n                   \n\n                    <audio-track #audio *ngFor="let track of myTracks"  [track]="track" (onFinish)="onTrackFinished($event)">\n\n                          <ion-item>  \n\n                              <ion-thumbnail item-right>\n\n                                  <audio-track-play dark [audioTrack]="audio"><ion-spinner></ion-spinner></audio-track-play>  \n\n                              </ion-thumbnail>\n\n                              <div item-content style="width:100%">\n\n                                  <p><strong>{{audio.title}}</strong></p>\n\n                                  <p><em>{{audio.artist}}</em></p>\n\n                              </div>\n\n                              \n\n                          </ion-item> \n\n                          \n\n                          <audio-track-progress-bar dark duration progress [audioTrack]="audio"></audio-track-progress-bar>\n\n                      </audio-track>\n\n                </ion-card-content>\n\n              </ion-card>\n\n    </ion-card>\n\n\n\n\n\n\n\n'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\card-with-audio\card-with-audio.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_audio__["a" /* AudioProvider */]])
     ], CardWithAudioComponent);
@@ -926,7 +920,7 @@ var CardWithAudioComponent = (function () {
 
 /***/ }),
 
-/***/ 608:
+/***/ 607:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -955,7 +949,7 @@ var CardWithFormComponent = (function () {
     }
     CardWithFormComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'card-with-form',template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\components\card-with-form\card-with-form.html"*/'<!-- Generated template for the CardWithFormComponent component -->\n\n<div>\n\n  {{text}}\n\n</div>\n\n'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\components\card-with-form\card-with-form.html"*/
+            selector: 'card-with-form',template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\card-with-form\card-with-form.html"*/'<!-- Generated template for the CardWithFormComponent component -->\n\n<div>\n\n  {{text}}\n\n</div>\n\n'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\card-with-form\card-with-form.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], CardWithFormComponent);
@@ -966,7 +960,7 @@ var CardWithFormComponent = (function () {
 
 /***/ }),
 
-/***/ 609:
+/***/ 608:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -995,7 +989,7 @@ var CardWithLandscapeImageComponent = (function () {
     }
     CardWithLandscapeImageComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'card-with-landscape-image',template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\components\card-with-landscape-image\card-with-landscape-image.html"*/'<ion-card color="dark" class="no-box-shadow">    \n\n    <ion-card-content>\n\n      <ion-card-title class="article-heading">\n\n          8 Steps To An Organized\n\n          Financial Life\n\n        </ion-card-title>\n\n        <p class="article-author">By Author Name | Updated November 6, 2017 — 1:46 PM</p>\n\n        <p class="article-time">10 min read</p>\n\n        <h2 class="article-para-heading">1. Pull Out Your Budget at Least Once Per Month</h2>\n\n        <p class="article-para">Your bills could change on a monthly basis.\n\n            Revise your budget as bills come in and adjust\n\n            other expenses to make up for it, so you don\'t\n\n            accidentally overdraw your bank account. For\n\n            instance, some months and seasons bring\n\n            higher electrical bills than others. Let\'s say\n\n            your electric bill is a $100 more in June than it\n\n            was in May.</p>\n\n            <p class="article-para">Your bills could change on a monthly basis.\n\n                Revise your budget as bills come in and adjust\n\n                other expenses to make up for it, so you don\'t\n\n                accidentally overdraw your bank account. For\n\n                instance, some months and seasons bring\n\n                higher electrical bills than others. Let\'s say\n\n                your electric bill is a $100 more in June than it\n\n                was in May.</p>\n\n    </ion-card-content>\n\n    <img src="assets/imgs/landscape-image.jpg" alt="image" class="landscape-responsive-image"/>\n\n    <span class="article-img-src">Source</span>\n\n  </ion-card>\n\n'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\components\card-with-landscape-image\card-with-landscape-image.html"*/
+            selector: 'card-with-landscape-image',template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\card-with-landscape-image\card-with-landscape-image.html"*/'<ion-card color="dark" class="no-box-shadow">    \n\n    <ion-card-content>\n\n      <ion-card-title class="article-heading">\n\n          8 Steps To An Organized\n\n          Financial Life\n\n        </ion-card-title>\n\n        <p class="article-author">By Author Name | Updated November 6, 2017 — 1:46 PM</p>\n\n        <p class="article-time">10 min read</p>\n\n        <h2 class="article-para-heading">1. Pull Out Your Budget at Least Once Per Month</h2>\n\n        <p class="article-para">Your bills could change on a monthly basis.\n\n            Revise your budget as bills come in and adjust\n\n            other expenses to make up for it, so you don\'t\n\n            accidentally overdraw your bank account. For\n\n            instance, some months and seasons bring\n\n            higher electrical bills than others. Let\'s say\n\n            your electric bill is a $100 more in June than it\n\n            was in May.</p>\n\n            <p class="article-para">Your bills could change on a monthly basis.\n\n                Revise your budget as bills come in and adjust\n\n                other expenses to make up for it, so you don\'t\n\n                accidentally overdraw your bank account. For\n\n                instance, some months and seasons bring\n\n                higher electrical bills than others. Let\'s say\n\n                your electric bill is a $100 more in June than it\n\n                was in May.</p>\n\n    </ion-card-content>\n\n    <img src="assets/imgs/landscape-image.jpg" alt="image" class="landscape-responsive-image"/>\n\n    <span class="article-img-src">Source</span>\n\n  </ion-card>\n\n'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\card-with-landscape-image\card-with-landscape-image.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], CardWithLandscapeImageComponent);
@@ -1006,7 +1000,7 @@ var CardWithLandscapeImageComponent = (function () {
 
 /***/ }),
 
-/***/ 610:
+/***/ 609:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1035,7 +1029,7 @@ var CardWithLandscapeImageScrollComponent = (function () {
     }
     CardWithLandscapeImageScrollComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'card-with-landscape-image-scroll',template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\components\card-with-landscape-image-scroll\card-with-landscape-image-scroll.html"*/'<ion-card color="dark" class="no-box-shadow">    \n\n  <ion-card-content>\n\n    <ion-card-title class="article-heading">\n\n        8 Steps To An Organized\n\n        Financial Life\n\n      </ion-card-title>\n\n      <p class="article-author">By Author Name | Updated November 6, 2017 — 1:46 PM</p>\n\n      <p class="article-time">10 min read</p>\n\n      <h2 class="article-para-heading">1. Pull Out Your Budget at Least Once Per Month</h2>\n\n      <p class="article-para">Your bills could change on a monthly basis.\n\n          Revise your budget as bills come in and adjust\n\n          other expenses to make up for it, so you don\'t\n\n          accidentally overdraw your bank account. For\n\n          instance, some months and seasons bring\n\n          higher electrical bills than others. Let\'s say\n\n          your electric bill is a $100 more in June than it\n\n          was in May.</p>\n\n          <p class="article-para">Your bills could change on a monthly basis.\n\n              Revise your budget as bills come in and adjust\n\n              other expenses to make up for it, so you don\'t\n\n              accidentally overdraw your bank account. For\n\n              instance, some months and seasons bring\n\n              higher electrical bills than others. Let\'s say\n\n              your electric bill is a $100 more in June than it\n\n              was in May.</p>\n\n  </ion-card-content>\n\n  <ion-scroll class="article-landscape-scroll" scrollX="true">\n\n      <ion-card color="dark">\n\n          <span class="article-img-src">Image Title</span>\n\n          <img src="assets/imgs/landscape-image.jpg" alt="image" class="landscape-responsive-image"/>\n\n      </ion-card>\n\n      <ion-card color="dark">\n\n          <span class="article-img-src">Image Title</span>\n\n          <img src="assets/imgs/landscape-image.jpg" alt="image" class="landscape-responsive-image"/>\n\n      </ion-card>\n\n      <ion-card color="dark">\n\n          <span class="article-img-src">Image Title</span>\n\n          <img src="assets/imgs/landscape-image.jpg" alt="image" class="landscape-responsive-image"/>\n\n      </ion-card>\n\n  </ion-scroll>\n\n</ion-card>\n\n\n\n\n\n\n\n'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\components\card-with-landscape-image-scroll\card-with-landscape-image-scroll.html"*/
+            selector: 'card-with-landscape-image-scroll',template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\card-with-landscape-image-scroll\card-with-landscape-image-scroll.html"*/'<ion-card color="dark" class="no-box-shadow">    \n\n  <ion-card-content>\n\n    <ion-card-title class="article-heading">\n\n        8 Steps To An Organized\n\n        Financial Life\n\n      </ion-card-title>\n\n      <p class="article-author">By Author Name | Updated November 6, 2017 — 1:46 PM</p>\n\n      <p class="article-time">10 min read</p>\n\n      <h2 class="article-para-heading">1. Pull Out Your Budget at Least Once Per Month</h2>\n\n      <p class="article-para">Your bills could change on a monthly basis.\n\n          Revise your budget as bills come in and adjust\n\n          other expenses to make up for it, so you don\'t\n\n          accidentally overdraw your bank account. For\n\n          instance, some months and seasons bring\n\n          higher electrical bills than others. Let\'s say\n\n          your electric bill is a $100 more in June than it\n\n          was in May.</p>\n\n          <p class="article-para">Your bills could change on a monthly basis.\n\n              Revise your budget as bills come in and adjust\n\n              other expenses to make up for it, so you don\'t\n\n              accidentally overdraw your bank account. For\n\n              instance, some months and seasons bring\n\n              higher electrical bills than others. Let\'s say\n\n              your electric bill is a $100 more in June than it\n\n              was in May.</p>\n\n  </ion-card-content>\n\n  <ion-scroll class="article-landscape-scroll" scrollX="true">\n\n      <ion-card color="dark">\n\n          <span class="article-img-src">Image Title</span>\n\n          <img src="assets/imgs/landscape-image.jpg" alt="image" class="landscape-responsive-image"/>\n\n      </ion-card>\n\n      <ion-card color="dark">\n\n          <span class="article-img-src">Image Title</span>\n\n          <img src="assets/imgs/landscape-image.jpg" alt="image" class="landscape-responsive-image"/>\n\n      </ion-card>\n\n      <ion-card color="dark">\n\n          <span class="article-img-src">Image Title</span>\n\n          <img src="assets/imgs/landscape-image.jpg" alt="image" class="landscape-responsive-image"/>\n\n      </ion-card>\n\n  </ion-scroll>\n\n</ion-card>\n\n\n\n\n\n\n\n'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\card-with-landscape-image-scroll\card-with-landscape-image-scroll.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], CardWithLandscapeImageScrollComponent);
@@ -1046,7 +1040,7 @@ var CardWithLandscapeImageScrollComponent = (function () {
 
 /***/ }),
 
-/***/ 611:
+/***/ 610:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1075,7 +1069,7 @@ var CardWithOpinionPollComponent = (function () {
     }
     CardWithOpinionPollComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'card-with-opinion-poll',template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\components\card-with-opinion-poll\card-with-opinion-poll.html"*/'<!-- Generated template for the CardWithOpinionPollComponent component -->\n\n<div>\n\n  {{text}}\n\n</div>\n\n'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\components\card-with-opinion-poll\card-with-opinion-poll.html"*/
+            selector: 'card-with-opinion-poll',template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\card-with-opinion-poll\card-with-opinion-poll.html"*/'<!-- Generated template for the CardWithOpinionPollComponent component -->\n\n<div>\n\n  {{text}}\n\n</div>\n\n'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\card-with-opinion-poll\card-with-opinion-poll.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], CardWithOpinionPollComponent);
@@ -1086,7 +1080,7 @@ var CardWithOpinionPollComponent = (function () {
 
 /***/ }),
 
-/***/ 612:
+/***/ 611:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1115,7 +1109,7 @@ var CardWithPotraitImageComponent = (function () {
     }
     CardWithPotraitImageComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'card-with-potrait-image',template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\components\card-with-potrait-image\card-with-potrait-image.html"*/'<ion-card color="dark" class="no-box-shadow">    \n\n  <ion-card-content>\n\n    <ion-card-title class="article-heading">\n\n        8 Steps To An Organized\n\n        Financial Life\n\n      </ion-card-title>\n\n      <p class="article-author">By Author Name | Updated November 6, 2017 — 1:46 PM</p>\n\n      <p class="article-time">10 min read</p>\n\n      <h2 class="article-para-heading">1. Pull Out Your Budget at Least Once Per Month</h2>\n\n      <p class="article-para">Your bills could change on a monthly basis.\n\n          Revise your budget as bills come in and adjust\n\n          other expenses to make up for it, so you don\'t\n\n          accidentally overdraw your bank account. For\n\n          instance, some months and seasons bring\n\n          higher electrical bills than others. Let\'s say\n\n          your electric bill is a $100 more in June than it\n\n          was in May.</p>\n\n          <p class="article-para">Your bills could change on a monthly basis.\n\n              Revise your budget as bills come in and adjust\n\n              other expenses to make up for it, so you don\'t\n\n              accidentally overdraw your bank account. For\n\n              instance, some months and seasons bring\n\n              higher electrical bills than others. Let\'s say\n\n              your electric bill is a $100 more in June than it\n\n              was in May.</p>\n\n  </ion-card-content>\n\n  <img src="assets/imgs/potrait-image.jpg" alt="image" class="potrait-responsive-image"/>\n\n  <span class="article-img-src">Source</span>\n\n</ion-card>\n\n'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\components\card-with-potrait-image\card-with-potrait-image.html"*/
+            selector: 'card-with-potrait-image',template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\card-with-potrait-image\card-with-potrait-image.html"*/'<ion-card color="dark" class="no-box-shadow">    \n\n  <ion-card-content>\n\n    <ion-card-title class="article-heading">\n\n        8 Steps To An Organized\n\n        Financial Life\n\n      </ion-card-title>\n\n      <p class="article-author">By Author Name | Updated November 6, 2017 — 1:46 PM</p>\n\n      <p class="article-time">10 min read</p>\n\n      <h2 class="article-para-heading">1. Pull Out Your Budget at Least Once Per Month</h2>\n\n      <p class="article-para">Your bills could change on a monthly basis.\n\n          Revise your budget as bills come in and adjust\n\n          other expenses to make up for it, so you don\'t\n\n          accidentally overdraw your bank account. For\n\n          instance, some months and seasons bring\n\n          higher electrical bills than others. Let\'s say\n\n          your electric bill is a $100 more in June than it\n\n          was in May.</p>\n\n          <p class="article-para">Your bills could change on a monthly basis.\n\n              Revise your budget as bills come in and adjust\n\n              other expenses to make up for it, so you don\'t\n\n              accidentally overdraw your bank account. For\n\n              instance, some months and seasons bring\n\n              higher electrical bills than others. Let\'s say\n\n              your electric bill is a $100 more in June than it\n\n              was in May.</p>\n\n  </ion-card-content>\n\n  <img src="assets/imgs/potrait-image.jpg" alt="image" class="potrait-responsive-image"/>\n\n  <span class="article-img-src">Source</span>\n\n</ion-card>\n\n'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\card-with-potrait-image\card-with-potrait-image.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], CardWithPotraitImageComponent);
@@ -1126,7 +1120,7 @@ var CardWithPotraitImageComponent = (function () {
 
 /***/ }),
 
-/***/ 613:
+/***/ 612:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1155,7 +1149,7 @@ var CardWithPotraitImageScrollComponent = (function () {
     }
     CardWithPotraitImageScrollComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'card-with-potrait-image-scroll',template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\components\card-with-potrait-image-scroll\card-with-potrait-image-scroll.html"*/'<ion-card color="dark" class="no-box-shadow">    \n\n    <ion-card-content>\n\n        <ion-card-title class="article-heading">\n\n            8 Steps To An Organized\n\n            Financial Life\n\n        </ion-card-title>\n\n        <p class="article-author">By Author Name | Updated November 6, 2017 — 1:46 PM</p>\n\n        <p class="article-time">10 min read</p>\n\n        <h2 class="article-para-heading">1. Pull Out Your Budget at Least Once Per Month</h2>\n\n        <p class="article-para">Your bills could change on a monthly basis.\n\n            Revise your budget as bills come in and adjust\n\n            other expenses to make up for it, so you don\'t\n\n            accidentally overdraw your bank account. For\n\n            instance, some months and seasons bring\n\n            higher electrical bills than others. Let\'s say\n\n            your electric bill is a $100 more in June than it\n\n            was in May.</p>\n\n            <p class="article-para">Your bills could change on a monthly basis.\n\n                Revise your budget as bills come in and adjust\n\n                other expenses to make up for it, so you don\'t\n\n                accidentally overdraw your bank account. For\n\n                instance, some months and seasons bring\n\n                higher electrical bills than others. Let\'s say\n\n                your electric bill is a $100 more in June than it\n\n                was in May.</p>\n\n    </ion-card-content>\n\n    <ion-scroll class="article-potrait-scroll" scrollX="true">\n\n        <ion-card color="dark">\n\n            <span class="article-img-src">Image Title</span>\n\n            <img src="assets/imgs/potrait-image.jpg" alt="image" class="potrait-responsive-image"/>\n\n        </ion-card>\n\n        <ion-card color="dark">\n\n            <span class="article-img-src">Image Title</span>\n\n            <img src="assets/imgs/potrait-image.jpg" alt="image" class="potrait-responsive-image"/>\n\n        </ion-card>\n\n        <ion-card color="dark">\n\n            <span class="article-img-src">Image Title</span>\n\n            <img src="assets/imgs/potrait-image.jpg" alt="image" class="potrait-responsive-image"/>\n\n        </ion-card>\n\n    </ion-scroll>\n\n</ion-card>\n\n      '/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\components\card-with-potrait-image-scroll\card-with-potrait-image-scroll.html"*/
+            selector: 'card-with-potrait-image-scroll',template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\card-with-potrait-image-scroll\card-with-potrait-image-scroll.html"*/'<ion-card color="dark" class="no-box-shadow">    \n\n    <ion-card-content>\n\n        <ion-card-title class="article-heading">\n\n            8 Steps To An Organized\n\n            Financial Life\n\n        </ion-card-title>\n\n        <p class="article-author">By Author Name | Updated November 6, 2017 — 1:46 PM</p>\n\n        <p class="article-time">10 min read</p>\n\n        <h2 class="article-para-heading">1. Pull Out Your Budget at Least Once Per Month</h2>\n\n        <p class="article-para">Your bills could change on a monthly basis.\n\n            Revise your budget as bills come in and adjust\n\n            other expenses to make up for it, so you don\'t\n\n            accidentally overdraw your bank account. For\n\n            instance, some months and seasons bring\n\n            higher electrical bills than others. Let\'s say\n\n            your electric bill is a $100 more in June than it\n\n            was in May.</p>\n\n            <p class="article-para">Your bills could change on a monthly basis.\n\n                Revise your budget as bills come in and adjust\n\n                other expenses to make up for it, so you don\'t\n\n                accidentally overdraw your bank account. For\n\n                instance, some months and seasons bring\n\n                higher electrical bills than others. Let\'s say\n\n                your electric bill is a $100 more in June than it\n\n                was in May.</p>\n\n    </ion-card-content>\n\n    <ion-scroll class="article-potrait-scroll" scrollX="true">\n\n        <ion-card color="dark">\n\n            <span class="article-img-src">Image Title</span>\n\n            <img src="assets/imgs/potrait-image.jpg" alt="image" class="potrait-responsive-image"/>\n\n        </ion-card>\n\n        <ion-card color="dark">\n\n            <span class="article-img-src">Image Title</span>\n\n            <img src="assets/imgs/potrait-image.jpg" alt="image" class="potrait-responsive-image"/>\n\n        </ion-card>\n\n        <ion-card color="dark">\n\n            <span class="article-img-src">Image Title</span>\n\n            <img src="assets/imgs/potrait-image.jpg" alt="image" class="potrait-responsive-image"/>\n\n        </ion-card>\n\n    </ion-scroll>\n\n</ion-card>\n\n      '/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\card-with-potrait-image-scroll\card-with-potrait-image-scroll.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], CardWithPotraitImageScrollComponent);
@@ -1166,7 +1160,7 @@ var CardWithPotraitImageScrollComponent = (function () {
 
 /***/ }),
 
-/***/ 614:
+/***/ 613:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1195,7 +1189,7 @@ var CardWithQuotesComponent = (function () {
     }
     CardWithQuotesComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'card-with-quotes',template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\components\card-with-quotes\card-with-quotes.html"*/'<ion-card color="dark" class="no-box-shadow">    \n\n    <ion-card-content>\n\n      <ion-card-title class="article-heading">\n\n          8 Steps To An Organized\n\n          Financial Life\n\n        </ion-card-title>\n\n        <p class="article-author">By Author Name | Updated November 6, 2017 — 1:46 PM</p>\n\n        <p class="article-time">10 min read</p>\n\n        <h2 class="article-para-heading">1. Pull Out Your Budget at Least Once Per Month</h2>\n\n        <p class="article-para">Your bills could change on a monthly basis.\n\n            Revise your budget as bills come in and adjust\n\n            other expenses to make up for it, so you don\'t\n\n            accidentally overdraw your bank account. For\n\n            instance, some months and seasons bring\n\n            higher electrical bills than others. Let\'s say\n\n            your electric bill is a $100 more in June than it\n\n            was in May.</p>\n\n            <p class="article-para">Your bills could change on a monthly basis.\n\n                Revise your budget as bills come in and adjust\n\n                other expenses to make up for it, so you don\'t\n\n                accidentally overdraw your bank account. For\n\n                instance, some months and seasons bring\n\n                higher electrical bills than others. Let\'s say\n\n                your electric bill is a $100 more in June than it\n\n                was in May.</p>\n\n    </ion-card-content>\n\n    <ion-card class="pad-0 no-box-shadow" color="quote">\n\n        <ion-item  color="quote">\n\n          <ion-icon style="display: inline-block; transform: scale(-1, 1);" ios="ios-quote" md="md-quote" item-left></ion-icon>\n\n        </ion-item>\n\n        <p padding class="article-para"><i>Your bills could change on a monthly basis.\n\n            Revise your budget as bills come in and adjust\n\n            other expenses to make up for it, so you don\'t\n\n            accidentally overdraw your bank account. For\n\n            instance, some months and seasons bring\n\n            higher electrical bills than others. Let\'s say\n\n            your electric bill is a $100 more in June than it\n\n            was in May.</i></p>\n\n        <ion-item  color="quote">\n\n          <ion-icon ios="ios-quote" md="md-quote" item-right></ion-icon>\n\n        </ion-item>\n\n    </ion-card>\n\n</ion-card>\n\n'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\components\card-with-quotes\card-with-quotes.html"*/
+            selector: 'card-with-quotes',template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\card-with-quotes\card-with-quotes.html"*/'<ion-card color="dark" class="no-box-shadow">    \n\n    <ion-card-content>\n\n      <ion-card-title class="article-heading">\n\n          8 Steps To An Organized\n\n          Financial Life\n\n        </ion-card-title>\n\n        <p class="article-author">By Author Name | Updated November 6, 2017 — 1:46 PM</p>\n\n        <p class="article-time">10 min read</p>\n\n        <h2 class="article-para-heading">1. Pull Out Your Budget at Least Once Per Month</h2>\n\n        <p class="article-para">Your bills could change on a monthly basis.\n\n            Revise your budget as bills come in and adjust\n\n            other expenses to make up for it, so you don\'t\n\n            accidentally overdraw your bank account. For\n\n            instance, some months and seasons bring\n\n            higher electrical bills than others. Let\'s say\n\n            your electric bill is a $100 more in June than it\n\n            was in May.</p>\n\n            <p class="article-para">Your bills could change on a monthly basis.\n\n                Revise your budget as bills come in and adjust\n\n                other expenses to make up for it, so you don\'t\n\n                accidentally overdraw your bank account. For\n\n                instance, some months and seasons bring\n\n                higher electrical bills than others. Let\'s say\n\n                your electric bill is a $100 more in June than it\n\n                was in May.</p>\n\n    </ion-card-content>\n\n    <ion-card class="pad-0 no-box-shadow" color="quote">\n\n        <ion-item  color="quote">\n\n          <ion-icon style="display: inline-block; transform: scale(-1, 1);" ios="ios-quote" md="md-quote" item-left></ion-icon>\n\n        </ion-item>\n\n        <p padding class="article-para"><i>Your bills could change on a monthly basis.\n\n            Revise your budget as bills come in and adjust\n\n            other expenses to make up for it, so you don\'t\n\n            accidentally overdraw your bank account. For\n\n            instance, some months and seasons bring\n\n            higher electrical bills than others. Let\'s say\n\n            your electric bill is a $100 more in June than it\n\n            was in May.</i></p>\n\n        <ion-item  color="quote">\n\n          <ion-icon ios="ios-quote" md="md-quote" item-right></ion-icon>\n\n        </ion-item>\n\n    </ion-card>\n\n</ion-card>\n\n'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\card-with-quotes\card-with-quotes.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], CardWithQuotesComponent);
@@ -1206,7 +1200,7 @@ var CardWithQuotesComponent = (function () {
 
 /***/ }),
 
-/***/ 615:
+/***/ 614:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1235,7 +1229,7 @@ var CardWithTestimonialComponent = (function () {
     }
     CardWithTestimonialComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'card-with-testimonial',template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\components\card-with-testimonial\card-with-testimonial.html"*/'<ion-card color="dark" class="no-box-shadow">    \n\n    <ion-card-content>\n\n      <ion-card-title class="article-heading">\n\n          8 Steps To An Organized\n\n          Financial Life\n\n        </ion-card-title>\n\n        <p class="article-author">By Author Name | Updated November 6, 2017 — 1:46 PM</p>\n\n        <p class="article-time">10 min read</p>\n\n        <h2 class="article-para-heading">1. Pull Out Your Budget at Least Once Per Month</h2>\n\n        <p class="article-para">Your bills could change on a monthly basis.\n\n            Revise your budget as bills come in and adjust\n\n            other expenses to make up for it, so you don\'t\n\n            accidentally overdraw your bank account. For\n\n            instance, some months and seasons bring\n\n            higher electrical bills than others. Let\'s say\n\n            your electric bill is a $100 more in June than it\n\n            was in May.</p>\n\n            <p class="article-para">Your bills could change on a monthly basis.\n\n                Revise your budget as bills come in and adjust\n\n                other expenses to make up for it, so you don\'t\n\n                accidentally overdraw your bank account. For\n\n                instance, some months and seasons bring\n\n                higher electrical bills than others. Let\'s say\n\n                your electric bill is a $100 more in June than it\n\n                was in May.</p>\n\n    </ion-card-content>\n\n    <ion-card>\n\n        <ion-item color="light">\n\n          <ion-avatar item-start>\n\n            <img src="assets/imgs/user-icon.jpeg">\n\n          </ion-avatar>\n\n          <h2 class="black">Marty McFly</h2>\n\n          <p class="article-img-src">November 5, 1955</p>\n\n        </ion-item>\n\n        <p padding class="black article-para"><i>Your bills could change on a monthly basis.\n\n            Revise your budget as bills come in and adjust\n\n            other expenses to make up for it, so you don\'t\n\n            accidentally overdraw your bank account. For\n\n            instance, some months and seasons bring\n\n            higher electrical bills than others. Let\'s say\n\n            your electric bill is a $100 more in June than it\n\n            was in May.</i></p>\n\n        \n\n    </ion-card>\n\n</ion-card>\n\n'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\components\card-with-testimonial\card-with-testimonial.html"*/
+            selector: 'card-with-testimonial',template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\card-with-testimonial\card-with-testimonial.html"*/'<ion-card color="dark" class="no-box-shadow">    \n\n    <ion-card-content>\n\n      <ion-card-title class="article-heading">\n\n          8 Steps To An Organized\n\n          Financial Life\n\n        </ion-card-title>\n\n        <p class="article-author">By Author Name | Updated November 6, 2017 — 1:46 PM</p>\n\n        <p class="article-time">10 min read</p>\n\n        <h2 class="article-para-heading">1. Pull Out Your Budget at Least Once Per Month</h2>\n\n        <p class="article-para">Your bills could change on a monthly basis.\n\n            Revise your budget as bills come in and adjust\n\n            other expenses to make up for it, so you don\'t\n\n            accidentally overdraw your bank account. For\n\n            instance, some months and seasons bring\n\n            higher electrical bills than others. Let\'s say\n\n            your electric bill is a $100 more in June than it\n\n            was in May.</p>\n\n            <p class="article-para">Your bills could change on a monthly basis.\n\n                Revise your budget as bills come in and adjust\n\n                other expenses to make up for it, so you don\'t\n\n                accidentally overdraw your bank account. For\n\n                instance, some months and seasons bring\n\n                higher electrical bills than others. Let\'s say\n\n                your electric bill is a $100 more in June than it\n\n                was in May.</p>\n\n    </ion-card-content>\n\n    <ion-card>\n\n        <ion-item color="light">\n\n          <ion-avatar item-start>\n\n            <img src="assets/imgs/user-icon.jpeg">\n\n          </ion-avatar>\n\n          <h2 class="black">Marty McFly</h2>\n\n          <p class="article-img-src">November 5, 1955</p>\n\n        </ion-item>\n\n        <p padding class="black article-para"><i>Your bills could change on a monthly basis.\n\n            Revise your budget as bills come in and adjust\n\n            other expenses to make up for it, so you don\'t\n\n            accidentally overdraw your bank account. For\n\n            instance, some months and seasons bring\n\n            higher electrical bills than others. Let\'s say\n\n            your electric bill is a $100 more in June than it\n\n            was in May.</i></p>\n\n        \n\n    </ion-card>\n\n</ion-card>\n\n'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\card-with-testimonial\card-with-testimonial.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], CardWithTestimonialComponent);
@@ -1246,7 +1240,7 @@ var CardWithTestimonialComponent = (function () {
 
 /***/ }),
 
-/***/ 616:
+/***/ 615:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1275,7 +1269,7 @@ var CardWithVideoComponent = (function () {
     }
     CardWithVideoComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'card-with-video',template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\components\card-with-video\card-with-video.html"*/'<ion-card color="dark" class="no-box-shadow">    \n\n    <ion-card-content>\n\n      <ion-card-title class="article-heading">\n\n          8 Steps To An Organized\n\n          Financial Life\n\n        </ion-card-title>\n\n        <p class="article-author">By Author Name | Updated November 6, 2017 — 1:46 PM</p>\n\n        <p class="article-time">10 min read</p>\n\n        <h2 class="article-para-heading">1. Pull Out Your Budget at Least Once Per Month</h2>\n\n        <p class="article-para">Your bills could change on a monthly basis.\n\n            Revise your budget as bills come in and adjust\n\n            other expenses to make up for it, so you don\'t\n\n            accidentally overdraw your bank account. For\n\n            instance, some months and seasons bring\n\n            higher electrical bills than others. Let\'s say\n\n            your electric bill is a $100 more in June than it\n\n            was in May.</p>\n\n            <p class="article-para">Your bills could change on a monthly basis.\n\n                Revise your budget as bills come in and adjust\n\n                other expenses to make up for it, so you don\'t\n\n                accidentally overdraw your bank account. For\n\n                instance, some months and seasons bring\n\n                higher electrical bills than others. Let\'s say\n\n                your electric bill is a $100 more in June than it\n\n                was in May.</p>\n\n    </ion-card-content>\n\n    <div overflow-scroll="true">\n\n        <video controls="controls" preload="metadata" autoplay="false" webkit-playsinline="webkit-playsinline" class="videoPlayer"><source src="https://player.vimeo.com/external/85569724.sd.mp4?s=43df5df0d733011263687d20a47557e4" type="video/mp4"/></video>\n\n    </div>\n\n</ion-card>'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\components\card-with-video\card-with-video.html"*/
+            selector: 'card-with-video',template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\card-with-video\card-with-video.html"*/'<ion-card color="dark" class="no-box-shadow">    \n\n    <ion-card-content>\n\n      <ion-card-title class="article-heading">\n\n          8 Steps To An Organized\n\n          Financial Life\n\n        </ion-card-title>\n\n        <p class="article-author">By Author Name | Updated November 6, 2017 — 1:46 PM</p>\n\n        <p class="article-time">10 min read</p>\n\n        <h2 class="article-para-heading">1. Pull Out Your Budget at Least Once Per Month</h2>\n\n        <p class="article-para">Your bills could change on a monthly basis.\n\n            Revise your budget as bills come in and adjust\n\n            other expenses to make up for it, so you don\'t\n\n            accidentally overdraw your bank account. For\n\n            instance, some months and seasons bring\n\n            higher electrical bills than others. Let\'s say\n\n            your electric bill is a $100 more in June than it\n\n            was in May.</p>\n\n            <p class="article-para">Your bills could change on a monthly basis.\n\n                Revise your budget as bills come in and adjust\n\n                other expenses to make up for it, so you don\'t\n\n                accidentally overdraw your bank account. For\n\n                instance, some months and seasons bring\n\n                higher electrical bills than others. Let\'s say\n\n                your electric bill is a $100 more in June than it\n\n                was in May.</p>\n\n    </ion-card-content>\n\n    <div overflow-scroll="true">\n\n        <video controls="controls" preload="metadata" autoplay="false" webkit-playsinline="webkit-playsinline" class="videoPlayer"><source src="https://player.vimeo.com/external/85569724.sd.mp4?s=43df5df0d733011263687d20a47557e4" type="video/mp4"/></video>\n\n    </div>\n\n</ion-card>'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\card-with-video\card-with-video.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], CardWithVideoComponent);
@@ -1286,7 +1280,7 @@ var CardWithVideoComponent = (function () {
 
 /***/ }),
 
-/***/ 617:
+/***/ 616:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1314,7 +1308,7 @@ var CategoryScrollComponent = (function () {
     }
     CategoryScrollComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'category-scroll',template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\components\category-scroll\category-scroll.html"*/'<ion-scroll class="cat-scroll" scrollX="true">\n\n    <button ion-button round small color="light">Category</button>\n\n    <button ion-button round small color="light">Category</button>\n\n    <button ion-button round small color="light">Category</button>\n\n    <button ion-button round small color="light">Category</button>\n\n    <button ion-button round small color="light">Category</button>\n\n    <button ion-button round small color="light">Category</button>\n\n    <button ion-button round small color="light">Category</button>\n\n    <button ion-button round small color="light">Category</button>\n\n    <button ion-button round small color="light">Category</button>\n\n </ion-scroll>'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\components\category-scroll\category-scroll.html"*/
+            selector: 'category-scroll',template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\category-scroll\category-scroll.html"*/'<ion-scroll class="cat-scroll" scrollX="true">\n\n    <button ion-button round small color="light">Category</button>\n\n    <button ion-button round small color="light">Category</button>\n\n    <button ion-button round small color="light">Category</button>\n\n    <button ion-button round small color="light">Category</button>\n\n    <button ion-button round small color="light">Category</button>\n\n    <button ion-button round small color="light">Category</button>\n\n    <button ion-button round small color="light">Category</button>\n\n    <button ion-button round small color="light">Category</button>\n\n    <button ion-button round small color="light">Category</button>\n\n </ion-scroll>'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\category-scroll\category-scroll.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], CategoryScrollComponent);
@@ -1325,7 +1319,7 @@ var CategoryScrollComponent = (function () {
 
 /***/ }),
 
-/***/ 618:
+/***/ 617:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1354,7 +1348,7 @@ var HomeDashboardBannerComponent = (function () {
     }
     HomeDashboardBannerComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'home-dashboard-banner',template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\components\home-dashboard-banner\home-dashboard-banner.html"*/'<ion-card padding text-center class="orange-gradient block">\n\n    <ion-grid class="pad-0">\n\n       <ion-row>\n\n          <ion-col col-12>\n\n             <p class="text-x-lg white">Toal articles read</p>\n\n             <p class="fw-l text-big white">\n\n                <strong>234</strong>\n\n             </p>\n\n          </ion-col>\n\n       </ion-row>\n\n       <ion-row class="bdr-right">\n\n          <ion-col col-4>\n\n             <p class="text-x-lg white">Health</p>\n\n             <p class="fw-l text-x-lg white">\n\n                <strong>100</strong>\n\n             </p>\n\n          </ion-col>\n\n          <ion-col col-4>\n\n             <p class="text-x-lg white">Finance</p>\n\n             <p class="fw-l text-x-lg white">\n\n                <strong>134</strong>\n\n             </p>\n\n          </ion-col>\n\n          <ion-col col-4>\n\n             <p class="text-x-lg white">Likes</p>\n\n             <p class="fw-l text-x-lg white">\n\n                <strong>65</strong>\n\n             </p>\n\n          </ion-col>\n\n       </ion-row>\n\n       <ion-row>\n\n          <ion-col col-12>\n\n             <p class="text-x-lg white">\n\n                <ion-icon name="timer"></ion-icon>\n\n                Reading History\n\n             </p>\n\n          </ion-col>\n\n       </ion-row>\n\n    </ion-grid>\n\n </ion-card>\n\n'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\components\home-dashboard-banner\home-dashboard-banner.html"*/
+            selector: 'home-dashboard-banner',template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\home-dashboard-banner\home-dashboard-banner.html"*/'<ion-card padding text-center class="orange-gradient block">\n\n    <ion-grid class="pad-0">\n\n       <ion-row>\n\n          <ion-col col-12>\n\n             <p class="text-x-lg white">Toal articles read</p>\n\n             <p class="fw-l text-big white">\n\n                <strong>234</strong>\n\n             </p>\n\n          </ion-col>\n\n       </ion-row>\n\n       <ion-row class="bdr-right">\n\n          <ion-col col-4>\n\n             <p class="text-x-lg white">Health</p>\n\n             <p class="fw-l text-x-lg white">\n\n                <strong>100</strong>\n\n             </p>\n\n          </ion-col>\n\n          <ion-col col-4>\n\n             <p class="text-x-lg white">Finance</p>\n\n             <p class="fw-l text-x-lg white">\n\n                <strong>134</strong>\n\n             </p>\n\n          </ion-col>\n\n          <ion-col col-4>\n\n             <p class="text-x-lg white">Likes</p>\n\n             <p class="fw-l text-x-lg white">\n\n                <strong>65</strong>\n\n             </p>\n\n          </ion-col>\n\n       </ion-row>\n\n       <ion-row>\n\n          <ion-col col-12>\n\n             <p class="text-x-lg white">\n\n                <ion-icon name="timer"></ion-icon>\n\n                Reading History\n\n             </p>\n\n          </ion-col>\n\n       </ion-row>\n\n    </ion-grid>\n\n </ion-card>\n\n'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\home-dashboard-banner\home-dashboard-banner.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], HomeDashboardBannerComponent);
@@ -1365,7 +1359,7 @@ var HomeDashboardBannerComponent = (function () {
 
 /***/ }),
 
-/***/ 619:
+/***/ 618:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1394,7 +1388,7 @@ var ProfileCompletionCardComponent = (function () {
     }
     ProfileCompletionCardComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'profile-completion-card',template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\components\profile-completion-card\profile-completion-card.html"*/'<ion-row color="dark" class="prompt-profile-completion">\n\n    <h2>Complete Your Profile to Earn Points</h2>\n\n    <ion-card padding>\n\n            <ion-item>\n\n                <ion-label stacked>BANK ACCOUNT NUMBER</ion-label>\n\n                <ion-input type="text"></ion-input>\n\n            </ion-item>\n\n            \n\n            <ion-item>\n\n                <ion-label stacked>INCOME RANGE (MONTHLY)</ion-label>\n\n                <ion-select interface="popover" [(ngModel)]="gaming">\n\n                    <ion-option value="nes">100</ion-option>\n\n                    <ion-option value="n64">200</ion-option>\n\n                    <ion-option value="ps">300</ion-option>                                 \n\n                </ion-select>\n\n            </ion-item>\n\n    </ion-card>\n\n    \n\n\n\n  </ion-row>'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\components\profile-completion-card\profile-completion-card.html"*/
+            selector: 'profile-completion-card',template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\profile-completion-card\profile-completion-card.html"*/'<ion-row color="dark" class="prompt-profile-completion">\n\n    <h2>Complete Your Profile to Earn Points</h2>\n\n    <ion-card padding>\n\n            <ion-item>\n\n                <ion-label stacked>BANK ACCOUNT NUMBER</ion-label>\n\n                <ion-input type="text"></ion-input>\n\n            </ion-item>\n\n            \n\n            <ion-item>\n\n                <ion-label stacked>INCOME RANGE (MONTHLY)</ion-label>\n\n                <ion-select interface="popover" [(ngModel)]="gaming">\n\n                    <ion-option value="nes">100</ion-option>\n\n                    <ion-option value="n64">200</ion-option>\n\n                    <ion-option value="ps">300</ion-option>                                 \n\n                </ion-select>\n\n            </ion-item>\n\n    </ion-card>\n\n    \n\n\n\n  </ion-row>'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\profile-completion-card\profile-completion-card.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], ProfileCompletionCardComponent);
@@ -1405,7 +1399,7 @@ var ProfileCompletionCardComponent = (function () {
 
 /***/ }),
 
-/***/ 620:
+/***/ 619:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1434,7 +1428,7 @@ var SocialCardComponent = (function () {
     }
     SocialCardComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'social-card',template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\components\social-card\social-card.html"*/'<ion-card padding class="social-card">\n\n   \n\n    <img src="assets/imgs/recipe.jpg" alt="recipe image" class="img-responsive">\n\n    \n\n    <ion-card-content>\n\n        <ion-card-title>\n\n            Nine Inch Nails Live\n\n        </ion-card-title>\n\n        <p class="card-content line-clamp">Nutritional blurb will be placed here</p>\n\n        <p>Prep time 20 • Cook time 35 • Serves 4 • Calories 350</p>\n\n        <p>654 Reads</p>\n\n        <span item-left class="grey-hash-tag">#Topic</span>\n\n        <span item-left class="grey-hash-tag">#Topic</span>\n\n        <span item-left class="grey-hash-tag">#Topic</span>\n\n    </ion-card-content>\n\n    \n\n    <ion-row>\n\n        <ion-col class="pad-0">\n\n            <button ion-button icon-left clear small color="social">\n\n                <ion-icon name="heart-outline"></ion-icon>\n\n                <div>143</div>\n\n            </button>\n\n        </ion-col>\n\n        <ion-col class="pad-0">\n\n            <button ion-button icon-left clear small color="social">\n\n                <ion-icon name="text"></ion-icon>\n\n                <div>100</div>\n\n            </button>\n\n        </ion-col>\n\n        <ion-col class="pad-0">\n\n            <button ion-button icon-left clear small color="social">\n\n                <ion-icon name="share"></ion-icon>\n\n                <div>58</div>\n\n            </button>\n\n        </ion-col>\n\n    </ion-row>\n\n    \n\n  </ion-card>'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\components\social-card\social-card.html"*/
+            selector: 'social-card',template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\social-card\social-card.html"*/'<ion-card padding class="social-card">\n\n   \n\n    <img src="assets/imgs/recipe.jpg" alt="recipe image" class="img-responsive">\n\n    \n\n    <ion-card-content>\n\n        <ion-card-title>\n\n            Nine Inch Nails Live\n\n        </ion-card-title>\n\n        <p class="card-content line-clamp">Nutritional blurb will be placed here</p>\n\n        <p>Prep time 20 • Cook time 35 • Serves 4 • Calories 350</p>\n\n        <p>654 Reads</p>\n\n        <span item-left class="grey-hash-tag">#Topic</span>\n\n        <span item-left class="grey-hash-tag">#Topic</span>\n\n        <span item-left class="grey-hash-tag">#Topic</span>\n\n    </ion-card-content>\n\n    \n\n    <ion-row>\n\n        <ion-col class="pad-0">\n\n            <button ion-button icon-left clear small color="social">\n\n                <ion-icon name="heart-outline"></ion-icon>\n\n                <div>143</div>\n\n            </button>\n\n        </ion-col>\n\n        <ion-col class="pad-0">\n\n            <button ion-button icon-left clear small color="social">\n\n                <ion-icon name="text"></ion-icon>\n\n                <div>100</div>\n\n            </button>\n\n        </ion-col>\n\n        <ion-col class="pad-0">\n\n            <button ion-button icon-left clear small color="social">\n\n                <ion-icon name="share"></ion-icon>\n\n                <div>58</div>\n\n            </button>\n\n        </ion-col>\n\n    </ion-row>\n\n    \n\n  </ion-card>'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\social-card\social-card.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], SocialCardComponent);
@@ -1445,7 +1439,7 @@ var SocialCardComponent = (function () {
 
 /***/ }),
 
-/***/ 621:
+/***/ 620:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1474,7 +1468,7 @@ var ToolCardComponent = (function () {
     }
     ToolCardComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'tool-card',template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\components\tool-card\tool-card.html"*/'<ion-card class="tool-card">\n\n    <ion-card-header class="pad-0">                   \n\n        <ion-item class="orange-gradient" color="orangecolor">\n\n            <ion-icon name="ios-man-outline" item-start></ion-icon>\n\n            Walking Challenge\n\n        </ion-item>                   \n\n    </ion-card-header>\n\n    <ion-card-content padding text-center>\n\n        <p>Walk for 30 minutes earn</p>\n\n        <h2>50 points</h2>\n\n        <p>Burn <span>150 calories</span></p>\n\n        <br/>\n\n        <button ion-button round text-center large class="text-lg mar-vr-15 fw-n center-block" color="orangecolor">Start Walking</button>\n\n    </ion-card-content>\n\n    \n\n  </ion-card>'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\components\tool-card\tool-card.html"*/
+            selector: 'tool-card',template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\tool-card\tool-card.html"*/'<ion-card class="tool-card">\n\n    <ion-card-header class="pad-0">                   \n\n        <ion-item class="orange-gradient" color="orangecolor">\n\n            <ion-icon name="ios-man-outline" item-start></ion-icon>\n\n            Walking Challenge\n\n        </ion-item>                   \n\n    </ion-card-header>\n\n    <ion-card-content padding text-center>\n\n        <p>Walk for 30 minutes earn</p>\n\n        <h2>50 points</h2>\n\n        <p>Burn <span>150 calories</span></p>\n\n        <br/>\n\n        <button ion-button round text-center large class="text-lg mar-vr-15 fw-n center-block" color="orangecolor">Start Walking</button>\n\n    </ion-card-content>\n\n    \n\n  </ion-card>'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\tool-card\tool-card.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], ToolCardComponent);
@@ -1485,7 +1479,7 @@ var ToolCardComponent = (function () {
 
 /***/ }),
 
-/***/ 622:
+/***/ 621:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1514,7 +1508,7 @@ var ToolsScrollComponent = (function () {
     }
     ToolsScrollComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'tools-scroll',template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\components\tools-scroll\tools-scroll.html"*/'<ion-item color="dark" class="tools-wrapper" padding no-lines style="padding-bottom:0px !important;">\n\n    Try Other Tools\n\n    <ion-scroll class="tool-scroll" scrollX="true">\n\n        <ion-card class="orange-gradient">\n\n            <div class="card-title">Madison</div>\n\n            <div class="card-subtitle">Health</div>\n\n        </ion-card> \n\n        <ion-card class="orange-gradient">\n\n            <div class="card-title">Madison</div>\n\n            <div class="card-subtitle">Health</div>\n\n        </ion-card>    \n\n        <ion-card class="orange-gradient">\n\n            <div class="card-title">Madison</div>\n\n            <div class="card-subtitle">Health</div>\n\n        </ion-card> \n\n        <ion-card class="orange-gradient">\n\n            <div class="card-title">Madison</div>\n\n            <div class="card-subtitle">Health</div>\n\n        </ion-card>                        \n\n    </ion-scroll>\n\n</ion-item>'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\components\tools-scroll\tools-scroll.html"*/
+            selector: 'tools-scroll',template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\tools-scroll\tools-scroll.html"*/'<ion-item color="dark" class="tools-wrapper" padding no-lines style="padding-bottom:0px !important;">\n\n    Try Other Tools\n\n    <ion-scroll class="tool-scroll" scrollX="true">\n\n        <ion-card class="orange-gradient">\n\n            <div class="card-title">Madison</div>\n\n            <div class="card-subtitle">Health</div>\n\n        </ion-card> \n\n        <ion-card class="orange-gradient">\n\n            <div class="card-title">Madison</div>\n\n            <div class="card-subtitle">Health</div>\n\n        </ion-card>    \n\n        <ion-card class="orange-gradient">\n\n            <div class="card-title">Madison</div>\n\n            <div class="card-subtitle">Health</div>\n\n        </ion-card> \n\n        <ion-card class="orange-gradient">\n\n            <div class="card-title">Madison</div>\n\n            <div class="card-subtitle">Health</div>\n\n        </ion-card>                        \n\n    </ion-scroll>\n\n</ion-item>'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\components\tools-scroll\tools-scroll.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], ToolsScrollComponent);
@@ -1552,7 +1546,7 @@ var HomePage = (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"G:\projects\ricson\lc-ionic\src\pages\home\home.html"*/'<ion-header>\n\n        <div class="orange-bg" style="height:20px;"></div>\n\n        <ion-toolbar color="dark" no-border class="scrollable-segments">\n\n                <ion-row>\n\n                <ion-col col-2 class="pad-0">\n\n                        <button ion-button menuToggle style="margin-top:3px !important;">\n\n                        <ion-icon name="menu"></ion-icon>\n\n                        </button>\n\n                </ion-col>\n\n                <ion-col col-10 class="pad-0">\n\n                        <ion-segment [(ngModel)]="topics">\n\n                        <ion-segment-button value="topic1">\n\n                        You\n\n                        </ion-segment-button>\n\n                        <ion-segment-button value="topic2">\n\n                        Financial Literacy\n\n                        </ion-segment-button>\n\n                        <ion-segment-button value="topic3">\n\n                        Healthy Reads\n\n                        </ion-segment-button>\n\n                        <ion-segment-button value="topic4">\n\n                        Fitness\n\n                        </ion-segment-button>\n\n                        </ion-segment>\n\n                </ion-col>\n\n                </ion-row>\n\n        </ion-toolbar>\n\n</ion-header>\n\n<ion-content>\n\n        <div [ngSwitch]="topics">\n\n                <ion-list *ngSwitchCase="\'topic1\'">\n\n                Page 1\n\n                </ion-list>\n\n                <ion-list *ngSwitchCase="\'topic2\'">\n\n                Page 2            \n\n                </ion-list>\n\n                <ion-list *ngSwitchCase="\'topic3\'">\n\n                Page 3\n\n                </ion-list>\n\n                <ion-list *ngSwitchCase="\'topic4\'">\n\n                Page 4          \n\n                </ion-list>\n\n        </div>\n\n</ion-content>'/*ion-inline-end:"G:\projects\ricson\lc-ionic\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\pages\home\home.html"*/'<ion-header>\n\n        <div class="orange-bg" style="height:20px;"></div>\n\n        <ion-toolbar color="dark" no-border class="scrollable-segments">\n\n                <ion-row>\n\n                <ion-col col-2 class="pad-0">\n\n                        <button ion-button menuToggle style="margin-top:3px !important;">\n\n                        <ion-icon name="menu"></ion-icon>\n\n                        </button>\n\n                </ion-col>\n\n                <ion-col col-10 class="pad-0">\n\n                        <ion-segment [(ngModel)]="topics">\n\n                        <ion-segment-button value="topic1">\n\n                        You\n\n                        </ion-segment-button>\n\n                        <ion-segment-button value="topic2">\n\n                        Financial Literacy\n\n                        </ion-segment-button>\n\n                        <ion-segment-button value="topic3">\n\n                        Healthy Reads\n\n                        </ion-segment-button>\n\n                        <ion-segment-button value="topic4">\n\n                        Fitness\n\n                        </ion-segment-button>\n\n                        </ion-segment>\n\n                </ion-col>\n\n                </ion-row>\n\n        </ion-toolbar>\n\n</ion-header>\n\n<ion-content>\n\n        <div [ngSwitch]="topics">\n\n                <ion-list *ngSwitchCase="\'topic1\'">\n\n                Page 1\n\n                </ion-list>\n\n                <ion-list *ngSwitchCase="\'topic2\'">\n\n                Page 2            \n\n                </ion-list>\n\n                <ion-list *ngSwitchCase="\'topic3\'">\n\n                Page 3\n\n                </ion-list>\n\n                <ion-list *ngSwitchCase="\'topic4\'">\n\n                Page 4          \n\n                </ion-list>\n\n        </div>\n\n</ion-content>'/*ion-inline-end:"G:\projects\ricson\https---github.com-Ricson-Canlas-life-companion-mobile.git\src\pages\home\home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], HomePage);

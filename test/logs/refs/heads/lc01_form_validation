@@ -1,4 +1,0 @@
-0000000000000000000000000000000000000000 0362d1d3bf8516588cf7b893ff98ec134b1379e6 Dennis <grundy.protoqodes@gmail.com> 1516985779 +0800	branch: Created from HEAD
-0362d1d3bf8516588cf7b893ff98ec134b1379e6 4db7338c4bf39962ae5e935da9376f874f3f3d86 Dennis <grundy.protoqodes@gmail.com> 1516986106 +0800	commit: validation form phone number
-4db7338c4bf39962ae5e935da9376f874f3f3d86 18d1746725e3ef4160329085315d394b99df57e2 Dennis <grundy.protoqodes@gmail.com> 1517002294 +0800	commit: validation input commit
-18d1746725e3ef4160329085315d394b99df57e2 e8743d650751eefaafe977eceae94cd54f4c6fcb Dennis <grundy.protoqodes@gmail.com> 1517060133 +0800	commit: add firebase config

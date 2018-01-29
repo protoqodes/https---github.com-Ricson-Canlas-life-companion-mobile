@@ -17,7 +17,7 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 import { AngularFirestoreModule } from 'angularfire2/firestore';
 import { AngularFireStorageModule } from 'angularfire2/storage';
 
-import { Firebase } from '@ionic-native/firebase';
+import * as firebase from 'firebase/app';
 //Audio Module
 import { IonicAudioModule, WebAudioProvider, CordovaMediaProvider, defaultAudioProviderFactory } from 'ionic-audio';
 /**
@@ -50,6 +50,7 @@ import { ToolsScrollComponent } from '../components/tools-scroll/tools-scroll';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { config } from '../shared/config';
+firebase.initializeApp(config.firebase);
 @NgModule({
   declarations: [
     MyApp,
@@ -103,7 +104,6 @@ import { config } from '../shared/config';
   providers: [
     StatusBar,
     SplashScreen,
-    Firebase,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

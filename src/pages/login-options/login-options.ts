@@ -6,7 +6,7 @@ import { ChooseinteresetPage } from '../chooseintereset/chooseintereset';
 import { InternationalPhoneModule } from 'ng4-intl-phone';
 import {Validators, FormBuilder, FormGroup } from '@angular/forms';
 import { AngularFireAuth } from 'angularfire2/auth';
-import { Firebase } from '@ionic-native/firebase';
+
 import * as firebase from 'firebase/app';
 //import { ApiService } from '../../shared/api.service';
 /**
@@ -63,7 +63,7 @@ export class LoginOptionsPage {
    public navParams: NavParams,
    private formBuilder: FormBuilder,
    public fireAuth : AngularFireAuth,
-   private firebase: Firebase
+
   /*private api : ApiService*/) {
   this.myForm = this.formBuilder.group({
       myPhone: ['+234', Validators.required],
@@ -82,10 +82,6 @@ export class LoginOptionsPage {
     this.datepickerDirective.modal.dismiss();
   }
   ionViewDidLoad() {
-  this.firebase.getToken()
-  .then(token => console.log(`The token is ${token}`)) // save the token server-side and use it to push notifications to this device
-  .catch(error => console.error('Error getting token', error));
-    console.log('ionViewDidLoad LoginOptionsPage');
   }
   onKeyDownPhoneNumber(key){
     if(key.keyCode == 8 || key.keyCode == 65 || key.ctrlKey){
@@ -117,19 +113,15 @@ export class LoginOptionsPage {
       }else{
         this.passwordResetFlow = true;
       }
-      /*(<any>window).FirebasePlugin.verifyPhoneNumber(number, 60, function(credential) {
-          console.log(credential);
-
-          // ask user to input verificationCode:
-          var code = inputField.value.toString();
-
+      (<any>window).FirebasePlugin.verifyPhoneNumber('+639351470363', 60, function(credential) {
+          alert('test');
           this.verificationId = credential.verificationId;
           
           var signInCredential = firebase.auth.PhoneAuthProvider.credential(verificationId, code);
           firebase.auth().signInWithCredential(signInCredential);
       }, function(error) {
           console.error(error);
-      });*/
+      });
       this.countryCode = this.myForm.controls.myPhone.value;
       this.forgotPasswordScreen = false;
       this.loginOptionShown = false;
@@ -190,6 +182,9 @@ export class LoginOptionsPage {
   }
   //OTP Field
   next(eve,ef,eb){
+    console.log(eve);
+    console.log(ef);
+    console.log(eb);
     if(eve.keyCode === 8 || eve.keyCode === 37 || eve.keyCode === 46){
       eb.setFocus();
     }else{
